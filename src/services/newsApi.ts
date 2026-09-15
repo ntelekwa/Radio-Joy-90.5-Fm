@@ -1,8 +1,8 @@
 import { Article, NewsApiResponse, NewsPagination, NewsSourceConfig, NewsSourceStatus } from '../types';
 import { ARTICLES as FALLBACK_ARTICLES } from '../data/mockData';
 
-const CLIENT_CACHE_KEY = 'mwangaza_news_articles_v2';
-const CLIENT_CACHE_TIME_KEY = 'mwangaza_news_articles_timestamp';
+const CLIENT_CACHE_KEY = 'radiojoy_official_news_articles_v3';
+const CLIENT_CACHE_TIME_KEY = 'radiojoy_official_news_articles_timestamp_v3';
 const CLIENT_CACHE_MAX_AGE_MS = 10 * 60 * 1000; // 10 minutes client-side storage cache
 
 // Helper to read from local storage

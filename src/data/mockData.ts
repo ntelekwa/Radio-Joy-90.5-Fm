@@ -92,166 +92,998 @@ export const CATEGORIES: Category[] = [
 
 export const ARTICLES: Article[] = [
   {
-    id: 'art-joy-1',
-    title: 'Mwang’onda Ataka Wahandisi Kuimarisha Usimamizi wa Miradi Kigoma',
-    summary: 'Mkuu wa Mkoa wa Kigoma awataka wahandisi na wataalamu wa ujenzi kuhakikisha miradi ya shule, zahanati na maji inakamilika kwa kiwango cha juu na kwa wakati uliopangwa.',
-    content: [
-      'Mkuu wa Mkoa wa Kigoma ametoa wito mzito kwa wahandisi wote wa mkoa na wilaya zake kuongeza kasi na usimamizi madhubuti wa fedha na ubora wa miradi ya maendeleo.',
-      'Akizungumza wakati wa ukaguzi wa ujenzi wa miundombinu ya shule na vituo vya afya katika Halmashauri ya Wilaya ya Kigoma, alisisitiza kuwa serikali haitavumilia mkandarasi yeyote anayelipua kazi au kuchelewesha miradi ya wananchi.',
-      'Utekelezaji wa miradi hiyo unahusisha vyumba vipya vya madarasa, maabara za sayansi, na mifumo ya maji safi inayolenga kuboresha mazingira ya watoto shuleni na akina mama vijijini.',
-      'Wananchi wa Kijiji cha Msimba na Kata ya Mugonya wameipongeza Radio Joy 90.5 FM kwa kuendelea kuwa kiungo kikuu cha kufichua kero na kuangazia maendeleo yao.'
+    "id": "joy-2425",
+    "title": "Mbunge atoa milioni 2.5 kusaidia mama asiyekuwa nyumba",
+    "summary": "Wananchi wa Kijiji cha Ruchugi Wilayani Uvinza Mkoani Kigoma wamesema kuwa hatua za mbunge wa",
+    "content": [
+      "Wananchi wa Kijiji cha Ruchugi Wilayani Uvinza Mkoani Kigoma wamesema kuwa hatua za mbunge wa jimbo la Kigoma Kaskazini kujitoa kwa ajili ya wananchi wake kutokana na namna ambavyo ameendelea kuwasaidia watu wenye mahitaji mbalimbali Na Orida Sayon Mbunge wa jimbo la Kigoma Kusini, Mhe. Nuru Kashakari, ametoa kiasi cha shilingi milioni 2.5 kwa ajili ya kumsaidia mama asiye na makazi ya…"
     ],
-    category: 'habari-leo',
-    imageUrl: 'https://images.unsplash.com/photo-1541872703-74c5e44368f9?q=80&w=1200&auto=format&fit=crop',
-    caption: 'Ukaguzi wa miradi ya ujenzi wa madarasa na miundombinu ya elimu mkoani Kigoma.',
-    author: {
-      name: 'Lucas Hoha',
-      role: 'Mwandishi wa Habari Radio Joy',
-      avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop',
+    "rawHtml": "<p>Wananchi wa Kijiji cha Ruchugi Wilayani Uvinza Mkoani Kigoma wamesema kuwa hatua za mbunge wa jimbo la Kigoma Kaskazini kujitoa kwa ajili ya wananchi wake kutokana na namna ambavyo ameendelea kuwasaidia watu wenye mahitaji mbalimbali Na Orida Sayon Mbunge wa jimbo la Kigoma Kusini, Mhe. Nuru Kashakari, ametoa kiasi cha shilingi milioni 2.5 kwa ajili ya kumsaidia mama asiye na makazi ya…</p>\n<p><a href=\"https://radiotadio.co.tz/joyfm/2026/09/14/10837/\" rel=\"nofollow\">Source</a></p>\n",
+    "category": "jamii",
+    "imageUrl": "https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?w=1200&q=80",
+    "caption": "Mbunge atoa milioni 2.5 kusaidia mama asiyekuwa nyumba",
+    "author": {
+      "name": "Orida Sayon",
+      "role": "Mwandishi wa Habari • Radio Joy 90.5 FM",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&q=80"
     },
-    publishedAt: 'Muda mfupi uliopita • 17:30 EAT',
-    readTimeMinutes: 4,
-    tags: ['Kigoma', 'Miradi', 'Uhandisi', 'Elimu', 'Halmashauri'],
-    isBreaking: true,
-    isTrending: true,
-    viewsCount: 16420,
-    sharesCount: 1240,
-    hasAudioReport: true,
-    audioDuration: '02:45',
+    "publishedAt": "14 Sep 2026",
+    "readTimeMinutes": 2,
+    "tags": [
+      "Uvinza",
+      "Kigoma"
+    ],
+    "isBreaking": true,
+    "isTrending": false,
+    "viewsCount": 3125,
+    "sharesCount": 375,
+    "originalUrl": "https://radiojoyfm.co.tz/mbunge-atoa-milioni-2-5-kusaidia-mama-asiyekuwa-nyumba/",
+    "sourceType": "wordpress"
   },
   {
-    id: 'art-joy-2',
-    title: 'Mwenge wa Uhuru Wakagua na Kuzindua Miradi ya Zaidi ya Bilioni 37 Kigoma MC',
-    summary: 'Mbio za Mwenge wa Uhuru zawasili Manispaa ya Kigoma Ujiji na kuweka mawe ya msingi kwenye miradi ya barabara za lami, zahanati na mfumo wa maji safi.',
-    content: [
-      'Mbio za Mwenge wa Uhuru Kitaifa zimewasili rasmi katika Manispaa ya Kigoma Ujiji, zikipokelewa kwa shangwe kubwa na mamia ya wakazi kando ya barabara za mji huo wa kihistoria.',
-      'Kiongozi wa Mbio za Mwenge wa Uhuru amekagua miradi saba ya maendeleo yenye thamani ya zaidi ya shilingi bilioni 37, ikiwemo ujenzi wa vyumba vya madarasa na kuboresha mfumo wa usambazaji maji.',
-      'Akihutubia wananchi katika Uwanja wa Mwanga Community Centre, kiongozi huyo alisisitiza umuhimu wa wananchi kutunza miradi hiyo ili iwanufaishe kwa miaka mingi ijayo.',
-      'Radio Joy 90.5 FM ilirusha matangazo mubashara ya mapokezi hayo kwa wasikilizaji wa Kigoma na maeneo yote ya mwambao wa Ziwa Tanganyika.'
+    "id": "joy-2424",
+    "title": "Kigoma imeanza kutumia e-Ardhi kuimarisha huduma za ardhi",
+    "summary": "Matumizi ya teknolojia yanavyoweza kuongeza kasi ya utoaji wa huduma za ardhi. Na Josephine Kiravu",
+    "content": [
+      "Matumizi ya teknolojia yanavyoweza kuongeza kasi ya utoaji wa huduma za ardhi. Na Josephine Kiravu Mkoa wa Kigoma umeanza rasmi kutumia mfumo wa Kielektroniki wa E ardhi, hatua inayotajwa kurahisisha na kuongeza ufanisi katika utoaji wa huduma za ardhi kwa wananchi. Akizungumza na wanahabari mkoani Kigoma Kamishana wa ardhi kutoka Wizara ya ardhi nyumba na maendeleo ya makazi…"
     ],
-    category: 'habari-leo',
-    imageUrl: 'https://images.unsplash.com/photo-1578575437130-527eed3abbec?q=80&w=1200&auto=format&fit=crop',
-    caption: 'Mbio za Mwenge wa Uhuru zikipokelewa na kuweka jiwe la msingi la mradi wa maendeleo Kigoma.',
-    author: {
-      name: 'Lucas Hoha',
-      role: 'Mwandishi Mwandamizi',
-      avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop',
+    "rawHtml": "<p>Matumizi ya teknolojia yanavyoweza kuongeza kasi ya utoaji wa huduma za ardhi. Na Josephine Kiravu Mkoa wa Kigoma umeanza rasmi kutumia mfumo wa Kielektroniki wa E ardhi, hatua inayotajwa kurahisisha na kuongeza ufanisi katika utoaji wa huduma za ardhi kwa wananchi. Akizungumza na wanahabari mkoani Kigoma Kamishana wa ardhi kutoka Wizara ya ardhi nyumba na maendeleo ya makazi…</p>\n<p><a href=\"https://radiotadio.co.tz/joyfm/2026/09/14/10842/\" rel=\"nofollow\">Source</a></p>\n",
+    "category": "teknolojia",
+    "imageUrl": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200&q=80",
+    "caption": "Kigoma imeanza kutumia e-Ardhi kuimarisha huduma za ardhi",
+    "author": {
+      "name": "Josephine Kiravu",
+      "role": "Mwandishi wa Habari • Radio Joy 90.5 FM",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&q=80"
     },
-    publishedAt: 'Saa 2 zilizopita • 15:10 EAT',
-    readTimeMinutes: 5,
-    tags: ['Mwenge wa Uhuru', 'Kigoma Ujiji', 'Miradi ya Maendeleo', 'Maji'],
-    isBreaking: false,
-    isTrending: true,
-    viewsCount: 19800,
-    sharesCount: 2310,
-    hasAudioReport: true,
-    audioDuration: '03:10',
+    "publishedAt": "14 Sep 2026",
+    "readTimeMinutes": 2,
+    "tags": [
+      "Kigoma"
+    ],
+    "isBreaking": false,
+    "isTrending": true,
+    "viewsCount": 3060,
+    "sharesCount": 366,
+    "originalUrl": "https://radiojoyfm.co.tz/kigoma-imeanza-kutumia-e-ardhi-kuimarisha-huduma-za-ardhi/",
+    "sourceType": "wordpress"
   },
   {
-    id: 'art-joy-3',
-    title: 'Miradi 7 ya Zaidi ya Bilioni 15.4 Kuzinduliwa Buhigwe na Kasulu',
-    summary: 'Mbio za Mwenge wa Uhuru zaendelea kukagua ujenzi wa vituo vya afya na barabara za vijijini katika wilaya za Kasulu na Buhigwe.',
-    content: [
-      'Wananchi wa Wilaya ya Buhigwe mkoani Kigoma wameendelea kunufaika na uwekezaji mkubwa wa serikali katika sekta ya afya na kilimo cha umwagiliaji.',
-      'Mkuu wa Wilaya ya Buhigwe ameeleza kuwa miradi hiyo itamaliza adha ya wananchi kutembea umbali mrefu kufuata huduma za matibabu ya dharura na upasuaji.',
-      'Pia wakulima wa kahawa na muhogo wilayani humo wamepongeza ujenzi wa masoko ya kisasa yanayorahisisha usafirishaji wa mazao kuelekea soko la nchi jirani za Burundi na DRC.'
+    "id": "joy-2423",
+    "title": "Mwang’onda ataka wahandisi kuimarisha usimamizi wa miradi Kigoma",
+    "summary": "Utekelezaji wa mradi huo unahusisha ujenzi wa vyumba nane vya madarasa, ofisi, jengo la utawala,",
+    "content": [
+      "Utekelezaji wa mradi huo unahusisha ujenzi wa vyumba nane vya madarasa, ofisi, jengo la utawala, maktaba, TEHAMA, maabara na matundu 13 ya vyoo Na Lucas Hoha Wanafunzi katika Kijiji cha Msimba, Kata ya Mugonya, Halmashauri ya Wilaya ya Kigoma Mkoa wa Kigoma ambao walikuwa wakikabiliwa na changamoto ya umbali mrefu wa kwenda shule ya sekondari Luiche, sasa wameondokana na adha hiyo baada…"
     ],
-    category: 'jamii',
-    imageUrl: 'https://images.unsplash.com/photo-1516214104703-d870798883c5?q=80&w=1200&auto=format&fit=crop',
-    caption: 'Miundombinu mipya ya barabara za vijijini na vituo vya afya mkoani Kigoma.',
-    author: {
-      name: 'Hagai Ruyagila',
-      role: 'Mwandishi wa Habari',
-      avatar: 'https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?q=80&w=200&auto=format&fit=crop',
+    "rawHtml": "<p>Utekelezaji wa mradi huo unahusisha ujenzi wa vyumba nane vya madarasa, ofisi, jengo la utawala, maktaba, TEHAMA, maabara na matundu 13 ya vyoo Na Lucas Hoha Wanafunzi katika Kijiji cha Msimba, Kata ya Mugonya, Halmashauri ya Wilaya ya Kigoma Mkoa wa Kigoma ambao walikuwa wakikabiliwa na changamoto ya umbali mrefu wa kwenda shule ya sekondari Luiche, sasa wameondokana na adha hiyo baada…</p>\n<p><a href=\"https://radiotadio.co.tz/joyfm/2026/09/12/10817/\" rel=\"nofollow\">Source</a></p>\n",
+    "category": "habari-leo",
+    "imageUrl": "https://images.unsplash.com/photo-1515162816999-a0c47dc192f7?w=1200&q=80",
+    "caption": "Mwang’onda ataka wahandisi kuimarisha usimamizi wa miradi Kigoma",
+    "author": {
+      "name": "Lucas Hoha",
+      "role": "Mwandishi wa Habari • Radio Joy 90.5 FM",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&q=80"
     },
-    publishedAt: 'Saa 4 zilizopita • 13:40 EAT',
-    readTimeMinutes: 3,
-    tags: ['Buhigwe', 'Kasulu', 'Afya', 'Kilimo', 'Miundombinu'],
-    isBreaking: false,
-    isTrending: false,
-    viewsCount: 9240,
-    sharesCount: 680,
-    hasAudioReport: false,
+    "publishedAt": "13 Sep 2026",
+    "readTimeMinutes": 2,
+    "tags": [
+      "Kigoma"
+    ],
+    "isBreaking": false,
+    "isTrending": true,
+    "viewsCount": 2995,
+    "sharesCount": 357,
+    "originalUrl": "https://radiojoyfm.co.tz/mwangonda-ataka-wahandisi-kuimarisha-usimamizi-wa-miradi-kigoma/",
+    "sourceType": "wordpress"
   },
   {
-    id: 'art-joy-4',
-    title: 'Mradi wa Maji Wenye Thamani ya Zaidi ya Bilioni 1 Kukomboa Kijiji cha Nyamnyunsi',
-    summary: 'Kukamilika kwa mradi wa maji kunanufaisha kaya zaidi ya 4,000 zilizokuwa zikifuata maji umbali wa kilomita tano katika vyanzo visivyo salama.',
-    content: [
-      'Furaha na vifijo vilitawala katika Kijiji cha Nyamnyunsi baada ya kufunguliwa rasmi kwa mabomba ya maji safi na salama yaliyojengwa na Wakala wa Maji Vijijini (RUWASA).',
-      'Akizungumza kwenye kipindi cha "Mashua" cha Radio Joy 90.5 FM, Diwani wa Kata hiyo alibainisha kuwa mradi huo umepunguza kwa kiasi kikubwa magonjwa yatokanayo na maji machafu.',
-      'Wanawake na wanafunzi wa kike sasa wana nafasi ya kuhudhuria masomo kwa wakati bila kupoteza masaa mengi kutafuta maji alfajiri.'
+    "id": "joy-2422",
+    "title": "Mwenge wa uhuru wakagua na kuzindua miradi Kigoma MC",
+    "summary": "Mbio za Mwenge wa Uhuru Kitaifa mwaka 2026 zimewasili katika Manispaa ya Kigoma Ujiji, Mkoani",
+    "content": [
+      "Mbio za Mwenge wa Uhuru Kitaifa mwaka 2026 zimewasili katika Manispaa ya Kigoma Ujiji, Mkoani Kigoma, ambapo Mwenge huo unatembelea, kukagua, kuzindua na kuweka mawe ya msingi katika miradi mbalimbali ya maendeleo. Na Lucas Hoha Ukiwa katika Manispaa ya Kigoma Ujiji, Mwenge wa Uhuru umeshazindua Bweni la Wavulana katika Shule ya Sekondari Buronge, lenye thamani ya zaidi ya shilingi…"
     ],
-    category: 'jamii',
-    imageUrl: 'https://images.unsplash.com/photo-1544717305-2782549b5136?q=80&w=1200&auto=format&fit=crop',
-    caption: 'Wananchi wakipata maji safi na salama ya bomba kijijini Nyamnyunsi Kigoma.',
-    author: {
-      name: 'Rehema Kasimu',
-      role: 'Mhariri wa Masuala ya Jamii',
-      avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=200&auto=format&fit=crop',
+    "rawHtml": "<p>Mbio za Mwenge wa Uhuru Kitaifa mwaka 2026 zimewasili katika Manispaa ya Kigoma Ujiji, Mkoani Kigoma, ambapo Mwenge huo unatembelea, kukagua, kuzindua na kuweka mawe ya msingi katika miradi mbalimbali ya maendeleo. Na Lucas Hoha Ukiwa katika Manispaa ya Kigoma Ujiji, Mwenge wa Uhuru umeshazindua Bweni la Wavulana katika Shule ya Sekondari Buronge, lenye thamani ya zaidi ya shilingi…</p>\n<p><a href=\"https://radiotadio.co.tz/joyfm/2026/09/13/10829/\" rel=\"nofollow\">Source</a></p>\n",
+    "category": "habari-leo",
+    "imageUrl": "https://images.unsplash.com/photo-1532375810709-75b1da00537c?w=1200&q=80",
+    "caption": "Mwenge wa uhuru wakagua na kuzindua miradi Kigoma MC",
+    "author": {
+      "name": "Lucas Hoha",
+      "role": "Mwandishi wa Habari • Radio Joy 90.5 FM",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&q=80"
     },
-    publishedAt: 'Saa 6 zilizopita • 11:20 EAT',
-    readTimeMinutes: 4,
-    tags: ['RUWASA', 'Maji Safi', 'Nyamnyunsi', 'Jamii'],
-    isBreaking: false,
-    isTrending: true,
-    viewsCount: 12400,
-    sharesCount: 920,
-    hasAudioReport: true,
-    audioDuration: '02:15',
+    "publishedAt": "13 Sep 2026",
+    "readTimeMinutes": 2,
+    "tags": [
+      "Kigoma",
+      "Mwenge wa Uhuru"
+    ],
+    "isBreaking": false,
+    "isTrending": true,
+    "viewsCount": 2930,
+    "sharesCount": 348,
+    "originalUrl": "https://radiojoyfm.co.tz/mwenge-wa-uhuru-wakagua-na-kuzindua-miradi-kigoma-mc/",
+    "sourceType": "wordpress"
   },
   {
-    id: 'art-joy-5',
-    title: 'Dimba la Michezo: Timu za Kigoma Zajiandaa na Mashindano ya Kombe la Shirikisho',
-    summary: 'Vilabu vya soka vya Mkoa wa Kigoma vyazidisha mazoezi Uwanja wa Lake Tanganyika kuelekea mechi za mtoano za Kombe la Shirikisho la CRDB.',
-    content: [
-      'Wapenzi wa michezo Kigoma wameendelea kufurika Uwanja wa Lake Tanganyika kushuhudia maandalizi ya wachezaji wazawa wanaotafuta nafasi ya kucheza Ligi Kuu ya NBC.',
-      'Mchambuzi wa michezo wa Radio Joy 90.5 FM, Juma Mussa "Kapteni", amesema kiwango cha soka la mkoa kimezidi kupanda kutokana na uwekezaji kwenye vituo vya kukuza vipaji vya watoto.',
-      '"Kigoma daima imekuwa chemchemi ya wachezaji nyota wa taifa. Hawa vijana wana ari kubwa ya kupeperusha bendera ya mkoa wetu kitaifa," alisema Kapteni.'
+    "id": "joy-2421",
+    "title": "Miradi 7 ya zaidi ya  bilioni 15.4 kuzinduliwa na mwenge wa uhuru Buhigwe",
+    "summary": "Mwenge wa uhuru umeendelea kukagua na kuzindua miradi ya maendeleo katika maeneo mbalimbali ya wilaya",
+    "content": [
+      "Mwenge wa uhuru umeendelea kukagua na kuzindua miradi ya maendeleo katika maeneo mbalimbali ya wilaya za Mkoa wa Kigoma huku ukisisitiza miradi hiyo kutunzwa Na Hagai Ruyagila Mwenge wa Uhuru umeanza mbio zake leo Septemba 11, 2026 katika Wilaya ya Buhigwe mkoani Kigoma, ukitokea Wilaya ya Kasulu, ambapo unatarajiwa kuzindua, kutembelea, kukagua na kuweka mawe ya msingi katika miradi…"
     ],
-    category: 'michezo',
-    imageUrl: 'https://images.unsplash.com/photo-1508098682722-e99c43a406b2?q=80&w=1200&auto=format&fit=crop',
-    caption: 'Wachezaji wa timu za Kigoma wakifanya mazoezi Uwanja wa Lake Tanganyika.',
-    author: {
-      name: 'Juma Mussa "Kapteni"',
-      role: 'Mchambuzi wa Michezo',
-      avatar: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=200&auto=format&fit=crop',
+    "rawHtml": "<p>Mwenge wa uhuru umeendelea kukagua na kuzindua miradi ya maendeleo katika maeneo mbalimbali ya wilaya za Mkoa wa Kigoma huku ukisisitiza miradi hiyo kutunzwa Na Hagai Ruyagila Mwenge wa Uhuru umeanza mbio zake leo Septemba 11, 2026 katika Wilaya ya Buhigwe mkoani Kigoma, ukitokea Wilaya ya Kasulu, ambapo unatarajiwa kuzindua, kutembelea, kukagua na kuweka mawe ya msingi katika miradi…</p>\n<p><a href=\"https://radiotadio.co.tz/joyfm/2026/09/11/10791/\" rel=\"nofollow\">Source</a></p>\n",
+    "category": "habari-leo",
+    "imageUrl": "https://images.unsplash.com/photo-1532375810709-75b1da00537c?w=1200&q=80",
+    "caption": "Miradi 7 ya zaidi ya  bilioni 15.4 kuzinduliwa na mwenge wa uhuru Buhigwe",
+    "author": {
+      "name": "Hagai Ruyagila",
+      "role": "Mwandishi wa Habari • Radio Joy 90.5 FM",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&q=80"
     },
-    publishedAt: 'Jana • 16:45 EAT',
-    readTimeMinutes: 4,
-    tags: ['Michezo', 'Soka', 'Kigoma', 'Lake Tanganyika Stadium', 'CRDB Bank Cup'],
-    isBreaking: false,
-    isTrending: false,
-    viewsCount: 11100,
-    sharesCount: 750,
-    hasAudioReport: true,
-    audioDuration: '03:30',
+    "publishedAt": "11 Sep 2026",
+    "readTimeMinutes": 2,
+    "tags": [
+      "Buhigwe",
+      "Mwenge wa Uhuru"
+    ],
+    "isBreaking": false,
+    "isTrending": false,
+    "viewsCount": 2865,
+    "sharesCount": 339,
+    "originalUrl": "https://radiojoyfm.co.tz/miradi-7-ya-zaidi-ya-bilioni-15-4-kuzinduliwa-na-mwenge-wa-uhuru-buhigwe/",
+    "sourceType": "wordpress"
   },
   {
-    id: 'art-joy-6',
-    title: 'Uvuvi Endelevu Ziwa Tanganyika: Wavuvi Kibirizi Wapata Mafunzo ya Kuhifadhi Mazalia ya Samaki',
-    summary: 'Ushirika wa wavuvi Kibirizi wazindua doria za pamoja kulinda samaki aina ya Kuhe na Migebuka ili kulinda uchumi wa jamii za mwambao wa ziwa.',
-    content: [
-      'Wavuvi zaidi ya 500 wa Bandari ya Kibirizi wamehudhuria kongamano la mafunzo kuhusu uvuvi endelevu lililoratibiwa na Taasisi ya Utafiti wa Uvuvi Tanzania (TAFIRI).',
-      'Mwenyekiti wa wavuvi amewataka wenzake kuachana na nyavu haramu zinazoharibu mayai ya samaki, akieleza kuwa Ziwa Tanganyika ndio uti wa mgongo wa uchumi wa Kigoma.',
-      'Radio Joy 90.5 FM itaendelea kuangazia fursa na changamoto za wavuvi kupitia kipindi maalum cha "East Africa Show" kila Ijumaa jioni.'
+    "id": "joy-2419",
+    "title": "Mwenge kutembelea miradi 7 ya zaidi ya bilioni 37",
+    "summary": "Mwenge wa uhuru 2026 umeendelea na mbio zake katika Halmashauri ya mji wa Kasulu ambapo",
+    "content": [
+      "Mwenge wa uhuru 2026 umeendelea na mbio zake katika Halmashauri ya mji wa Kasulu ambapo unatembelea, kukagua na kuzindua miradi mbalimbali ya maendeleo Na Hagai Ruyagila Mkurugenzi wa Halmashauri ya Mji Kasulu mkoani Kigoma, Mwl. Vumilia Julius Simbeye, amepokea Mwenge wa Uhuru 2026 kutoka kwa Mkurugenzi Mtendaji wa Halmashauri ya Wilaya ya Kasulu, CPA Francis Kafuku…"
     ],
-    category: 'jamii',
-    imageUrl: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1200&auto=format&fit=crop',
-    caption: 'Boti za wavuvi zikirejea katika Bandari ya Kibirizi Ziwa Tanganyika alfajiri.',
-    author: {
-      name: 'Lucas Hoha',
-      role: 'Mwandishi Mwandamizi',
-      avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop',
+    "rawHtml": "<p>Mwenge wa uhuru 2026 umeendelea na mbio zake katika Halmashauri ya mji wa Kasulu ambapo unatembelea, kukagua na kuzindua miradi mbalimbali ya maendeleo Na Hagai Ruyagila Mkurugenzi wa Halmashauri ya Mji Kasulu mkoani Kigoma, Mwl. Vumilia Julius Simbeye, amepokea Mwenge wa Uhuru 2026 kutoka kwa Mkurugenzi Mtendaji wa Halmashauri ya Wilaya ya Kasulu, CPA Francis Kafuku…</p>\n<p><a href=\"https://radiotadio.co.tz/joyfm/2026/09/10/10776/\" rel=\"nofollow\">Source</a></p>\n",
+    "category": "habari-leo",
+    "imageUrl": "https://images.unsplash.com/photo-1532375810709-75b1da00537c?w=1200&q=80",
+    "caption": "Mwenge kutembelea miradi 7 ya zaidi ya bilioni 37",
+    "author": {
+      "name": "Hagai Ruyagila",
+      "role": "Mwandishi wa Habari • Radio Joy 90.5 FM",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&q=80"
     },
-    publishedAt: 'Jana • 09:15 EAT',
-    readTimeMinutes: 3,
-    tags: ['Ziwa Tanganyika', 'Kibirizi', 'Uvuvi', 'TAFIRI', 'Migebuka'],
-    isBreaking: false,
-    isTrending: false,
-    viewsCount: 8900,
-    sharesCount: 620,
-    hasAudioReport: false,
+    "publishedAt": "10 Sep 2026",
+    "readTimeMinutes": 2,
+    "tags": [
+      "Kasulu",
+      "Mwenge wa Uhuru"
+    ],
+    "isBreaking": false,
+    "isTrending": false,
+    "viewsCount": 2800,
+    "sharesCount": 330,
+    "originalUrl": "https://radiojoyfm.co.tz/mwenge-kutembelea-miradi-7-ya-zaidi-ya-bilioni-37/",
+    "sourceType": "wordpress"
+  },
+  {
+    "id": "joy-2418",
+    "title": "Mradi wa maji wenye thamani ya zaidi ya Bilion 1 nyamnyunsi",
+    "summary": "Kukamilika kwa mradi wa maji Nyamnyusi utasaidia kupunguza changamoto za wananchi kutembea umbali mrefu kutafuta",
+    "content": [
+      "Kukamilika kwa mradi wa maji Nyamnyusi utasaidia kupunguza changamoto za wananchi kutembea umbali mrefu kutafuta huduma ya maji Na Emmanuel Kamangu Mwenge wa uhuru 2026 umekagua na kuzindua mradi wa maji wenye thamani ya zaidi ya Bilion 1 katika kijiji cha nyamnyunsi halmashauri ya wilaya ya kasulu ikiwa ni mwendelezo wa mkakati wa serikali wa kuhakikisha inamtua mama ndo kichwani."
+    ],
+    "rawHtml": "<p>Kukamilika kwa mradi wa maji Nyamnyusi utasaidia kupunguza changamoto za wananchi kutembea umbali mrefu kutafuta huduma ya maji Na Emmanuel Kamangu Mwenge wa uhuru 2026 umekagua na kuzindua mradi wa maji wenye thamani ya zaidi ya Bilion 1 katika kijiji cha nyamnyunsi halmashauri ya wilaya ya kasulu ikiwa ni mwendelezo wa mkakati wa serikali wa kuhakikisha inamtua mama ndo kichwani.</p>\n<p><a href=\"https://radiotadio.co.tz/joyfm/2026/09/10/10782/\" rel=\"nofollow\">Source</a></p>\n",
+    "category": "jamii",
+    "imageUrl": "https://images.unsplash.com/photo-1541888946425-d0fbb180c5f2?w=1200&q=80",
+    "caption": "Mradi wa maji wenye thamani ya zaidi ya Bilion 1 nyamnyunsi",
+    "author": {
+      "name": "Emmanuel Kamangu",
+      "role": "Mwandishi wa Habari • Radio Joy 90.5 FM",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&q=80"
+    },
+    "publishedAt": "10 Sep 2026",
+    "readTimeMinutes": 2,
+    "tags": [
+      "Kigoma",
+      "Habari"
+    ],
+    "isBreaking": false,
+    "isTrending": false,
+    "viewsCount": 2735,
+    "sharesCount": 321,
+    "originalUrl": "https://radiojoyfm.co.tz/mradi-wa-maji-wenye-thamani-ya-zaidi-ya-bilion-1-nyamnyunsi/",
+    "sourceType": "wordpress"
+  },
+  {
+    "id": "joy-2417",
+    "title": "Huduma ya M-mama yapunguza vifo vya mama na mtoto",
+    "summary": "Afya ya mama na mtoto ni jambo muhimu katika maendeleo ya jamii na taifa kwa",
+    "content": [
+      "Afya ya mama na mtoto ni jambo muhimu katika maendeleo ya jamii na taifa kwa ujumla miongoni mwa changamoto zinazoweza kuhatarisha maisha ya wajawazito na watoto ni kuchelewa kupata huduma za afya, hasa pale ambapo mgonjwa anahitaji usafiri wa haraka kwenda kituo cha afya Na Emmanuel Kamangu Huduma ya usafiri wa dharula kwa mama mjamzito na mama aliye jifungua yaani M-mama katika…"
+    ],
+    "rawHtml": "<p>Afya ya mama na mtoto ni jambo muhimu katika maendeleo ya jamii na taifa kwa ujumla miongoni mwa changamoto zinazoweza kuhatarisha maisha ya wajawazito na watoto ni kuchelewa kupata huduma za afya, hasa pale ambapo mgonjwa anahitaji usafiri wa haraka kwenda kituo cha afya Na Emmanuel Kamangu Huduma ya usafiri wa dharula kwa mama mjamzito na mama aliye jifungua yaani M-mama katika…</p>\n<p><a href=\"https://radiotadio.co.tz/joyfm/2026/09/10/10788/\" rel=\"nofollow\">Source</a></p>\n",
+    "category": "jamii",
+    "imageUrl": "https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?w=1200&q=80",
+    "caption": "Huduma ya M-mama yapunguza vifo vya mama na mtoto",
+    "author": {
+      "name": "Emmanuel Kamangu",
+      "role": "Mwandishi wa Habari • Radio Joy 90.5 FM",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&q=80"
+    },
+    "publishedAt": "10 Sep 2026",
+    "readTimeMinutes": 2,
+    "tags": [
+      "Kigoma",
+      "Habari"
+    ],
+    "isBreaking": false,
+    "isTrending": false,
+    "viewsCount": 2670,
+    "sharesCount": 312,
+    "originalUrl": "https://radiojoyfm.co.tz/huduma-ya-m-mama-yapunguza-vifo-vya-mama-na-mtoto/",
+    "sourceType": "wordpress"
+  },
+  {
+    "id": "joy-2416",
+    "title": "Miradi 13 kutembelewa na mwenge wa uhuru Kasulu",
+    "summary": "Kiongozi wa mbio za mwenge wa uhuru mwaka 2026 Wazo Mwang’onda amesema dhamira ya serikali",
+    "content": [
+      "Kiongozi wa mbio za mwenge wa uhuru mwaka 2026 Wazo Mwang’onda amesema dhamira ya serikali ni kuhakikisha inaboresha miundombinu ya kutolea huduma muhimu kwa wananchi Na Hagai Ruyagila Mwenge wa Uhuru kwa mwaka 2026 umeanza mbio zake katika Wilaya ya Kasulu mkoani Kigoma ukitokea Wilayani Kibondo ambapo miradi mbalimbali ya maendeleo ikiwemo elimu, afya, barabara na maji inatarajiwa…"
+    ],
+    "rawHtml": "<p>Kiongozi wa mbio za mwenge wa uhuru mwaka 2026 Wazo Mwang’onda amesema dhamira ya serikali ni kuhakikisha inaboresha miundombinu ya kutolea huduma muhimu kwa wananchi Na Hagai Ruyagila Mwenge wa Uhuru kwa mwaka 2026 umeanza mbio zake katika Wilaya ya Kasulu mkoani Kigoma ukitokea Wilayani Kibondo ambapo miradi mbalimbali ya maendeleo ikiwemo elimu, afya, barabara na maji inatarajiwa…</p>\n<p><a href=\"https://radiotadio.co.tz/joyfm/2026/09/09/10761/\" rel=\"nofollow\">Source</a></p>\n",
+    "category": "habari-leo",
+    "imageUrl": "https://images.unsplash.com/photo-1532375810709-75b1da00537c?w=1200&q=80",
+    "caption": "Miradi 13 kutembelewa na mwenge wa uhuru Kasulu",
+    "author": {
+      "name": "Hagai Ruyagila",
+      "role": "Mwandishi wa Habari • Radio Joy 90.5 FM",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&q=80"
+    },
+    "publishedAt": "9 Sep 2026",
+    "readTimeMinutes": 2,
+    "tags": [
+      "Kasulu",
+      "Mwenge wa Uhuru"
+    ],
+    "isBreaking": false,
+    "isTrending": false,
+    "viewsCount": 2605,
+    "sharesCount": 303,
+    "originalUrl": "https://radiojoyfm.co.tz/miradi-13-kutembelewa-na-mwenge-wa-uhuru-kasulu/",
+    "sourceType": "wordpress"
+  },
+  {
+    "id": "joy-2415",
+    "title": "Zaidi ya Tsh 122 milioni zajenga bwalo la chakula, jiko banifu Makere sekondari",
+    "summary": "Uboreshaji wa miundombinu ya elimu inasaidia wanafunzi kupata mazingira rafiki ya kujinzia Na Hagai Ruyagila",
+    "content": [
+      "Uboreshaji wa miundombinu ya elimu inasaidia wanafunzi kupata mazingira rafiki ya kujinzia Na Hagai Ruyagila Mwenge wa uhuru 2026 umezindua na kukagua mradi wa ujenzi wa bwalo la chakula pamoja na majiko banifu katika Shule ya Sekondari Makere, Halmashauri ya Wilaya ya Kasulu, mkoani Kigoma, wenye thamani ya zaidi ya shilingi milioni 122. Akisoma taarifa ya mradi huo…"
+    ],
+    "rawHtml": "<p>Uboreshaji wa miundombinu ya elimu inasaidia wanafunzi kupata mazingira rafiki ya kujinzia Na Hagai Ruyagila Mwenge wa uhuru 2026 umezindua na kukagua mradi wa ujenzi wa bwalo la chakula pamoja na majiko banifu katika Shule ya Sekondari Makere, Halmashauri ya Wilaya ya Kasulu, mkoani Kigoma, wenye thamani ya zaidi ya shilingi milioni 122. Akisoma taarifa ya mradi huo…</p>\n<p><a href=\"https://radiotadio.co.tz/joyfm/2026/09/09/10769/\" rel=\"nofollow\">Source</a></p>\n",
+    "category": "jamii",
+    "imageUrl": "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=1200&q=80",
+    "caption": "Zaidi ya Tsh 122 milioni zajenga bwalo la chakula, jiko banifu Makere sekondari",
+    "author": {
+      "name": "Hagai Ruyagila",
+      "role": "Mwandishi wa Habari • Radio Joy 90.5 FM",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&q=80"
+    },
+    "publishedAt": "9 Sep 2026",
+    "readTimeMinutes": 2,
+    "tags": [
+      "Kigoma",
+      "Habari"
+    ],
+    "isBreaking": false,
+    "isTrending": false,
+    "viewsCount": 2540,
+    "sharesCount": 294,
+    "originalUrl": "https://radiojoyfm.co.tz/zaidi-ya-tsh-122-milioni-zajenga-bwalo-la-chakula-jiko-banifu-makere-sekondari/",
+    "sourceType": "wordpress"
+  },
+  {
+    "id": "joy-2414",
+    "title": "Mwenge wa uhuru kuzinndua miradi ya bilioni 73.2 Kigoma",
+    "summary": "Mwenge wa uhuru umewasili Mkoani Kigoma ambapo umepokelewa katika Halmashauri ya Wilaya Kakonko na unatarajia",
+    "content": [
+      "Mwenge wa uhuru umewasili Mkoani Kigoma ambapo umepokelewa katika Halmashauri ya Wilaya Kakonko na unatarajia kutembelea, kukagua na kuweka mawe ya msingi katika miradi mbalimbali ya maendeleo. Na Mwandishi wetu Mwenge wa Uhuru umepokelewa na kuanzia mbio zake Mkoa wa Kigoma katika Halmashauri ya Wilaya ya Kakonko, ambapo jumla ya miradi yenye thamani ya Shilingi Bil.73.2 itazinduliwa…"
+    ],
+    "rawHtml": "<p>Mwenge wa uhuru umewasili Mkoani Kigoma ambapo umepokelewa katika Halmashauri ya Wilaya Kakonko na unatarajia kutembelea, kukagua na kuweka mawe ya msingi katika miradi mbalimbali ya maendeleo. Na Mwandishi wetu Mwenge wa Uhuru umepokelewa na kuanzia mbio zake Mkoa wa Kigoma katika Halmashauri ya Wilaya ya Kakonko, ambapo jumla ya miradi yenye thamani ya Shilingi Bil.73.2 itazinduliwa…</p>\n<p><a href=\"https://radiotadio.co.tz/joyfm/2026/09/08/10747/\" rel=\"nofollow\">Source</a></p>\n",
+    "category": "habari-leo",
+    "imageUrl": "https://images.unsplash.com/photo-1532375810709-75b1da00537c?w=1200&q=80",
+    "caption": "Mwenge wa uhuru kuzinndua miradi ya bilioni 73.2 Kigoma",
+    "author": {
+      "name": "Mwandishi Wetu",
+      "role": "Mwandishi wa Habari • Radio Joy 90.5 FM",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&q=80"
+    },
+    "publishedAt": "8 Sep 2026",
+    "readTimeMinutes": 2,
+    "tags": [
+      "Kakonko",
+      "Kigoma",
+      "Mwenge wa Uhuru"
+    ],
+    "isBreaking": false,
+    "isTrending": false,
+    "viewsCount": 2475,
+    "sharesCount": 285,
+    "originalUrl": "https://radiojoyfm.co.tz/mwenge-wa-uhuru-kuzinndua-miradi-ya-bilioni-73-2-kigoma/",
+    "sourceType": "wordpress"
+  },
+  {
+    "id": "joy-2413",
+    "title": "Mwenge wa uhuru waridhishwa na mradi wa maji Luhuru Kakonko",
+    "summary": "Mradi wa maji Luhuru uliopo Wilayani Kakonko unaenda kuwa mwarobaini ya ukosefubwa maji kwa wananchi",
+    "content": [
+      "Mradi wa maji Luhuru uliopo Wilayani Kakonko unaenda kuwa mwarobaini ya ukosefubwa maji kwa wananchi waliokuwa wakitembea umbali mrefu kufuata huduma za maji Na Mwandishi wetu Kiongozi wa Mbio za Mwenge wa Uhuru kitaifa Wazo Mwang’onda ametoa wito wa kuendelea kutunzwa miundombinu ya maji ili iweze kudumu na kutoa huduma kwa muda mrefu. Kiongozi huyo ametoa wito huo mara baada ya…"
+    ],
+    "rawHtml": "<p>Mradi wa maji Luhuru uliopo Wilayani Kakonko unaenda kuwa mwarobaini ya ukosefubwa maji kwa wananchi waliokuwa wakitembea umbali mrefu kufuata huduma za maji Na Mwandishi wetu Kiongozi wa Mbio za Mwenge wa Uhuru kitaifa Wazo Mwang’onda ametoa wito wa kuendelea kutunzwa miundombinu ya maji ili iweze kudumu na kutoa huduma kwa muda mrefu. Kiongozi huyo ametoa wito huo mara baada ya…</p>\n<p><a href=\"https://radiotadio.co.tz/joyfm/2026/09/08/10752/\" rel=\"nofollow\">Source</a></p>\n",
+    "category": "jamii",
+    "imageUrl": "https://images.unsplash.com/photo-1541888946425-d0fbb180c5f2?w=1200&q=80",
+    "caption": "Mwenge wa uhuru waridhishwa na mradi wa maji Luhuru Kakonko",
+    "author": {
+      "name": "Wazo Mwang’onda",
+      "role": "Mwandishi wa Habari • Radio Joy 90.5 FM",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&q=80"
+    },
+    "publishedAt": "8 Sep 2026",
+    "readTimeMinutes": 2,
+    "tags": [
+      "Kakonko",
+      "Mwenge wa Uhuru"
+    ],
+    "isBreaking": false,
+    "isTrending": false,
+    "viewsCount": 2410,
+    "sharesCount": 276,
+    "originalUrl": "https://radiojoyfm.co.tz/mwenge-wa-uhuru-waridhishwa-na-mradi-wa-maji-luhuru-kakonko/",
+    "sourceType": "wordpress"
+  },
+  {
+    "id": "joy-2412",
+    "title": "DC Kasulu awataka vijana kuwa wazalendo",
+    "summary": "Vijana wametakiwa kufanya kazi kwa bidi na kujishughulisha na kazi zitakazowaingia kipato ili kuepeuka utegemezi",
+    "content": [
+      "Vijana wametakiwa kufanya kazi kwa bidi na kujishughulisha na kazi zitakazowaingia kipato ili kuepeuka utegemezi Na Hagai Ruyagila Mkuu wa Wilaya ya Kasulu mkoani Kigoma, Kanali Isaac Mwakisu, amewataka vijana wa Halmashauri ya Mji Kasulu kujiandaa kwa ajili ya maisha yao ya baadaye kwa kuwa wazalendo, kufanya kazi kwa bidii na kujihusisha na shughuli zenye manufaa kwao na taifa kwa…"
+    ],
+    "rawHtml": "<p>Vijana wametakiwa kufanya kazi kwa bidi na kujishughulisha na kazi zitakazowaingia kipato ili kuepeuka utegemezi Na Hagai Ruyagila Mkuu wa Wilaya ya Kasulu mkoani Kigoma, Kanali Isaac Mwakisu, amewataka vijana wa Halmashauri ya Mji Kasulu kujiandaa kwa ajili ya maisha yao ya baadaye kwa kuwa wazalendo, kufanya kazi kwa bidii na kujihusisha na shughuli zenye manufaa kwao na taifa kwa…</p>\n<p><a href=\"https://radiotadio.co.tz/joyfm/2026/09/07/10741/\" rel=\"nofollow\">Source</a></p>\n",
+    "category": "habari-leo",
+    "imageUrl": "https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=1200&q=80",
+    "caption": "DC Kasulu awataka vijana kuwa wazalendo",
+    "author": {
+      "name": "Hagai Ruyagila",
+      "role": "Mwandishi wa Habari • Radio Joy 90.5 FM",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&q=80"
+    },
+    "publishedAt": "7 Sep 2026",
+    "readTimeMinutes": 2,
+    "tags": [
+      "Kasulu"
+    ],
+    "isBreaking": false,
+    "isTrending": false,
+    "viewsCount": 2345,
+    "sharesCount": 267,
+    "originalUrl": "https://radiojoyfm.co.tz/dc-kasulu-awataka-vijana-kuwa-wazalendo/",
+    "sourceType": "wordpress"
+  },
+  {
+    "id": "joy-2411",
+    "title": "TAKUKURU yakabidhi mashine kwa ajili ya watoto njiti Kigoma",
+    "summary": "Hospitali ya rufaa ya Mkoa wa Kigoma Maweni imepokea mashine kwa ajili ya watoto njiti",
+    "content": [
+      "Hospitali ya rufaa ya Mkoa wa Kigoma Maweni imepokea mashine kwa ajili ya watoto njiti kutoka taasisi ya kupambana na kuzuia rushwa TAKUKURU Taasisi ya Kuzuia na Kupambana na Rushwa (TAKUKURU) imekabidhi mashine mbili maalum kwa ajili ya kusaidia utoaji wa huduma kwa watoto waliozaliwa kabla ya muda, maarufu kama watoto njiti, katika Hospitali ya Rufaa ya Mkoa wa Kigoma Maweni."
+    ],
+    "rawHtml": "<p>Hospitali ya rufaa ya Mkoa wa Kigoma Maweni imepokea mashine kwa ajili ya watoto njiti kutoka taasisi ya kupambana na kuzuia rushwa TAKUKURU Taasisi ya Kuzuia na Kupambana na Rushwa (TAKUKURU) imekabidhi mashine mbili maalum kwa ajili ya kusaidia utoaji wa huduma kwa watoto waliozaliwa kabla ya muda, maarufu kama watoto njiti, katika Hospitali ya Rufaa ya Mkoa wa Kigoma Maweni.</p>\n<p><a href=\"https://radiotadio.co.tz/joyfm/2026/09/05/10731/\" rel=\"nofollow\">Source</a></p>\n",
+    "category": "jamii",
+    "imageUrl": "https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?w=1200&q=80",
+    "caption": "TAKUKURU yakabidhi mashine kwa ajili ya watoto njiti Kigoma",
+    "author": {
+      "name": "Chumba cha Habari cha Radio Joy",
+      "role": "Mwandishi wa Habari • Radio Joy 90.5 FM",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&q=80"
+    },
+    "publishedAt": "5 Sep 2026",
+    "readTimeMinutes": 2,
+    "tags": [
+      "Kigoma"
+    ],
+    "isBreaking": false,
+    "isTrending": false,
+    "viewsCount": 2280,
+    "sharesCount": 258,
+    "originalUrl": "https://radiojoyfm.co.tz/takukuru-yakabidhi-mashine-kwa-ajili-ya-watoto-njiti-kigoma/",
+    "sourceType": "wordpress"
+  },
+  {
+    "id": "joy-2410",
+    "title": "Mwenge wa uhuru kuwasili Kasulu Septemba 9, 2026",
+    "summary": "Mwenge wa Uhuru ni miongoni mwa alama muhimu za kitaifa, ambazo hutumika kuhamasisha wananchi kuhusu",
+    "content": [
+      "Mwenge wa Uhuru ni miongoni mwa alama muhimu za kitaifa, ambazo hutumika kuhamasisha wananchi kuhusu masuala ya maendeleo, amani, umoja, uzalendo na utekelezaji wa miradi mbalimbali ya maendeleo nchini. Na Hagai Ruyagila Mkuu wa wilaya ya Kasulu mkoani Kigoma, Kanali Isaac Mwakisu, ameongoza kikao cha kamati maalum cha maandalizi ya mapokezi ya Mwenge wa Uhuru…"
+    ],
+    "rawHtml": "<p>Mwenge wa Uhuru ni miongoni mwa alama muhimu za kitaifa, ambazo hutumika kuhamasisha wananchi kuhusu masuala ya maendeleo, amani, umoja, uzalendo na utekelezaji wa miradi mbalimbali ya maendeleo nchini. Na Hagai Ruyagila Mkuu wa wilaya ya Kasulu mkoani Kigoma, Kanali Isaac Mwakisu, ameongoza kikao cha kamati maalum cha maandalizi ya mapokezi ya Mwenge wa Uhuru…</p>\n<p><a href=\"https://radiotadio.co.tz/joyfm/2026/09/02/10707/\" rel=\"nofollow\">Source</a></p>\n",
+    "category": "habari-leo",
+    "imageUrl": "https://images.unsplash.com/photo-1532375810709-75b1da00537c?w=1200&q=80",
+    "caption": "Mwenge wa uhuru kuwasili Kasulu Septemba 9, 2026",
+    "author": {
+      "name": "Hagai Ruyagila",
+      "role": "Mwandishi wa Habari • Radio Joy 90.5 FM",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&q=80"
+    },
+    "publishedAt": "2 Sep 2026",
+    "readTimeMinutes": 2,
+    "tags": [
+      "Kasulu",
+      "Mwenge wa Uhuru"
+    ],
+    "isBreaking": false,
+    "isTrending": false,
+    "viewsCount": 2215,
+    "sharesCount": 249,
+    "originalUrl": "https://radiojoyfm.co.tz/mwenge-wa-uhuru-kuwasili-kasulu-septemba-9-2026/",
+    "sourceType": "wordpress"
+  },
+  {
+    "id": "joy-2409",
+    "title": "Mayeye CUP yaanza kurindima Kigoma DC",
+    "summary": "Mbunge wa Jimbo la Kigoma Kaskazini mkoani Kigoma ameanzisha mashindano ya mpira wa miguu yenye",
+    "content": [
+      "Mbunge wa Jimbo la Kigoma Kaskazini mkoani Kigoma ameanzisha mashindano ya mpira wa miguu yenye lengo la mashindano hayo ni kukuza vipaji na kudumisha mshikamano miongoni mwa jamii. Na Sadick Kibwana Ligi ya mbunge wa Jimbo la Kigoma Kaskazini, Mhe. Kiza Mayeye (Mayeye Cup), imeanza rasmi Jumanne hii, Septemba 1, 2026, katika uwanja wa tarafa ya Mwandiga ikihusisha jumla ya timu 32."
+    ],
+    "rawHtml": "<p>Mbunge wa Jimbo la Kigoma Kaskazini mkoani Kigoma ameanzisha mashindano ya mpira wa miguu yenye lengo la mashindano hayo ni kukuza vipaji na kudumisha mshikamano miongoni mwa jamii. Na Sadick Kibwana Ligi ya mbunge wa Jimbo la Kigoma Kaskazini, Mhe. Kiza Mayeye (Mayeye Cup), imeanza rasmi Jumanne hii, Septemba 1, 2026, katika uwanja wa tarafa ya Mwandiga ikihusisha jumla ya timu 32.</p>\n<p><a href=\"https://radiotadio.co.tz/joyfm/2026/09/02/10706/\" rel=\"nofollow\">Source</a></p>\n",
+    "category": "michezo",
+    "imageUrl": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=1200&q=80",
+    "caption": "Mayeye CUP yaanza kurindima Kigoma DC",
+    "author": {
+      "name": "Sadick Kibwana",
+      "role": "Mwandishi wa Habari • Radio Joy 90.5 FM",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&q=80"
+    },
+    "publishedAt": "2 Sep 2026",
+    "readTimeMinutes": 2,
+    "tags": [
+      "Kigoma"
+    ],
+    "isBreaking": false,
+    "isTrending": false,
+    "viewsCount": 2150,
+    "sharesCount": 240,
+    "originalUrl": "https://radiojoyfm.co.tz/mayeye-cup-yaanza-kurindima-kigoma-dc/",
+    "sourceType": "wordpress"
+  },
+  {
+    "id": "joy-2408",
+    "title": "Madiwani Kasulu waomba TARURA kuboresha barabara",
+    "summary": "Miundombinu ya barabara ni sehemu muhimu katika maendeleo ya nchi kwani hutumika kusafirisha watu, bidhaa",
+    "content": [
+      "Miundombinu ya barabara ni sehemu muhimu katika maendeleo ya nchi kwani hutumika kusafirisha watu, bidhaa na huduma kutoka sehemu moja kwenda nyingine. Na Hagai Ruyagila Madiwani wa Halmashauri ya Mji Kasulu Mkoani Kigoma, wameiomba serikali kupitia Wakala wa Barabara za Vijijini na Mijini (TARURA), kundelea kuboresha barabara za pembezoni mwa mji wa Kasulu ambazo zimekuwa na changamoto…"
+    ],
+    "rawHtml": "<p>Miundombinu ya barabara ni sehemu muhimu katika maendeleo ya nchi kwani hutumika kusafirisha watu, bidhaa na huduma kutoka sehemu moja kwenda nyingine. Na Hagai Ruyagila Madiwani wa Halmashauri ya Mji Kasulu Mkoani Kigoma, wameiomba serikali kupitia Wakala wa Barabara za Vijijini na Mijini (TARURA), kundelea kuboresha barabara za pembezoni mwa mji wa Kasulu ambazo zimekuwa na changamoto…</p>\n<p><a href=\"https://radiotadio.co.tz/joyfm/2026/09/01/10686/\" rel=\"nofollow\">Source</a></p>\n",
+    "category": "habari-leo",
+    "imageUrl": "https://images.unsplash.com/photo-1515162816999-a0c47dc192f7?w=1200&q=80",
+    "caption": "Madiwani Kasulu waomba TARURA kuboresha barabara",
+    "author": {
+      "name": "Hagai Ruyagila",
+      "role": "Mwandishi wa Habari • Radio Joy 90.5 FM",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&q=80"
+    },
+    "publishedAt": "1 Sep 2026",
+    "readTimeMinutes": 2,
+    "tags": [
+      "Kasulu"
+    ],
+    "isBreaking": false,
+    "isTrending": false,
+    "viewsCount": 2085,
+    "sharesCount": 231,
+    "originalUrl": "https://radiojoyfm.co.tz/madiwani-kasulu-waomba-tarura-kuboresha-barabara/",
+    "sourceType": "wordpress"
+  },
+  {
+    "id": "joy-2407",
+    "title": "DC Kasulu aongoza maadhimisho miaka 20 ya Polisi jamii",
+    "summary": "Katika kuadhimisha miaka 20 ya Polisi jamii shughuli mbalimbali zimefanyika ikiwemo usafi wa mazingira katika",
+    "content": [
+      "Katika kuadhimisha miaka 20 ya Polisi jamii shughuli mbalimbali zimefanyika ikiwemo usafi wa mazingira katika maeneo mbalimbali huku Jeshi hilo likitoa wito kwa wananchi kushirikiana katika kutoa taarifa za uhalifu na wahalifu Na Mwandishi wetu Mkuu wa Wilaya ya Kasulu Kanali Isaac Mwakisu ameongoza zoezi la usafi wa Mazingira katika Halmashauri hiyo akimwakilisha Mkuu wa Mkoa wa Kigoma…"
+    ],
+    "rawHtml": "<p>Katika kuadhimisha miaka 20 ya Polisi jamii shughuli mbalimbali zimefanyika ikiwemo usafi wa mazingira katika maeneo mbalimbali huku Jeshi hilo likitoa wito kwa wananchi kushirikiana katika kutoa taarifa za uhalifu na wahalifu Na Mwandishi wetu Mkuu wa Wilaya ya Kasulu Kanali Isaac Mwakisu ameongoza zoezi la usafi wa Mazingira katika Halmashauri hiyo akimwakilisha Mkuu wa Mkoa wa Kigoma…</p>\n<p><a href=\"https://radiotadio.co.tz/joyfm/2026/09/01/10698/\" rel=\"nofollow\">Source</a></p>\n",
+    "category": "habari-leo",
+    "imageUrl": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1200&q=80",
+    "caption": "DC Kasulu aongoza maadhimisho miaka 20 ya Polisi jamii",
+    "author": {
+      "name": "Mwandishi Wetu",
+      "role": "Mwandishi wa Habari • Radio Joy 90.5 FM",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&q=80"
+    },
+    "publishedAt": "1 Sep 2026",
+    "readTimeMinutes": 2,
+    "tags": [
+      "Kasulu"
+    ],
+    "isBreaking": false,
+    "isTrending": false,
+    "viewsCount": 2020,
+    "sharesCount": 222,
+    "originalUrl": "https://radiojoyfm.co.tz/dc-kasulu-aongoza-maadhimisho-miaka-20-ya-polisi-jamii/",
+    "sourceType": "wordpress"
+  },
+  {
+    "id": "joy-2406",
+    "title": "Wajawazito Kasulu watakiwa kutumia vizuri dawa za fefo na foliki",
+    "summary": "Matumizi foliki na fefo kwa kufuata maelekezo ya mtaalamu wa afya husaidia kulinda afya ya",
+    "content": [
+      "Matumizi foliki na fefo kwa kufuata maelekezo ya mtaalamu wa afya husaidia kulinda afya ya mama na mtoto na kupunguza baadhi ya hatari wakati wa ujauzito. Na Emmanuel Kamangu Wanawake wajawazito katika Halmashauri ya Mji wa Kasulu wametakiwa kutumia vizuri dawa aina ya fefo pamoja na foliki ambazo husaidia kukua vizuri kwa viungo vya mtoto aliyeko tumbon."
+    ],
+    "rawHtml": "<p>Matumizi foliki na fefo kwa kufuata maelekezo ya mtaalamu wa afya husaidia kulinda afya ya mama na mtoto na kupunguza baadhi ya hatari wakati wa ujauzito. Na Emmanuel Kamangu Wanawake wajawazito katika Halmashauri ya Mji wa Kasulu wametakiwa kutumia vizuri dawa aina ya fefo pamoja na foliki ambazo husaidia kukua vizuri kwa viungo vya mtoto aliyeko tumbon.</p>\n<p><a href=\"https://radiotadio.co.tz/joyfm/2026/08/31/10676/\" rel=\"nofollow\">Source</a></p>\n",
+    "category": "jamii",
+    "imageUrl": "https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?w=1200&q=80",
+    "caption": "Wajawazito Kasulu watakiwa kutumia vizuri dawa za fefo na foliki",
+    "author": {
+      "name": "Emmanuel Kamangu",
+      "role": "Mwandishi wa Habari • Radio Joy 90.5 FM",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&q=80"
+    },
+    "publishedAt": "31 Ago 2026",
+    "readTimeMinutes": 2,
+    "tags": [
+      "Kasulu"
+    ],
+    "isBreaking": false,
+    "isTrending": false,
+    "viewsCount": 1955,
+    "sharesCount": 213,
+    "originalUrl": "https://radiojoyfm.co.tz/wajawazito-kasulu-watakiwa-kutumia-vizuri-dawa-za-fefo-na-foliki/",
+    "sourceType": "wordpress"
+  },
+  {
+    "id": "joy-2405",
+    "title": "DC Kasulu kufunga soko kama usafi hautafanyika",
+    "summary": "Usafi wa mazingira ni jambo muhimu sana katika maisha ya kila siku ya binadamu. Mazingira",
+    "content": [
+      "Usafi wa mazingira ni jambo muhimu sana katika maisha ya kila siku ya binadamu. Mazingira safi ni yale ambayo hayana uchafu kama taka, maji machafu, vyakula vilivyooza na vitu vingine vinavyoweza kusababisha madhara kwa afya ya binadamu. Kila mtu ana wajibu wa kuhakikisha mazingira yake yanakuwa safi na salama Na Hagai Ruyagila Mkuu wa Wilaya ya Kasulu, Kanali Isaac Mwakisu…"
+    ],
+    "rawHtml": "<p>Usafi wa mazingira ni jambo muhimu sana katika maisha ya kila siku ya binadamu. Mazingira safi ni yale ambayo hayana uchafu kama taka, maji machafu, vyakula vilivyooza na vitu vingine vinavyoweza kusababisha madhara kwa afya ya binadamu. Kila mtu ana wajibu wa kuhakikisha mazingira yake yanakuwa safi na salama Na Hagai Ruyagila Mkuu wa Wilaya ya Kasulu, Kanali Isaac Mwakisu…</p>\n<p><a href=\"https://radiotadio.co.tz/joyfm/2026/08/31/10680/\" rel=\"nofollow\">Source</a></p>\n",
+    "category": "biashara",
+    "imageUrl": "https://images.unsplash.com/photo-1530587191325-3db32d826c18?w=1200&q=80",
+    "caption": "DC Kasulu kufunga soko kama usafi hautafanyika",
+    "author": {
+      "name": "Hagai Ruyagila",
+      "role": "Mwandishi wa Habari • Radio Joy 90.5 FM",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&q=80"
+    },
+    "publishedAt": "31 Ago 2026",
+    "readTimeMinutes": 2,
+    "tags": [
+      "Kasulu"
+    ],
+    "isBreaking": false,
+    "isTrending": false,
+    "viewsCount": 1890,
+    "sharesCount": 204,
+    "originalUrl": "https://radiojoyfm.co.tz/dc-kasulu-kufunga-soko-kama-usafi-hautafanyika/",
+    "sourceType": "wordpress"
+  },
+  {
+    "id": "joy-2404",
+    "title": "Wananchi Titye Kasulu waanza ujenzi wa shule mpya ya msingi",
+    "summary": "Shule mpya inapunguza changamoto za umbali na msongamano, na hivyo kutoa mazingira bora yanayoweza kuongeza",
+    "content": [
+      "Shule mpya inapunguza changamoto za umbali na msongamano, na hivyo kutoa mazingira bora yanayoweza kuongeza mahudhurio, ushiriki na ufaulu wa wanafunzi Na Emmanuel Kamangu Wananchi wa Kijiji cha Titye, Kata ya Titye, Wilaya ya Kasulu, wameanza ujenzi wa shule mpya ya msingi ikiwa ni mkakati wa kupunguza msongamano katika Shule ya Msingi Titye na kuhakikisha wanafunzi wanapata mazingira…"
+    ],
+    "rawHtml": "<p>Shule mpya inapunguza changamoto za umbali na msongamano, na hivyo kutoa mazingira bora yanayoweza kuongeza mahudhurio, ushiriki na ufaulu wa wanafunzi Na Emmanuel Kamangu Wananchi wa Kijiji cha Titye, Kata ya Titye, Wilaya ya Kasulu, wameanza ujenzi wa shule mpya ya msingi ikiwa ni mkakati wa kupunguza msongamano katika Shule ya Msingi Titye na kuhakikisha wanafunzi wanapata mazingira…</p>\n<p><a href=\"https://radiotadio.co.tz/joyfm/2026/08/28/10670/\" rel=\"nofollow\">Source</a></p>\n",
+    "category": "jamii",
+    "imageUrl": "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=1200&q=80",
+    "caption": "Wananchi Titye Kasulu waanza ujenzi wa shule mpya ya msingi",
+    "author": {
+      "name": "Emmanuel Kamangu",
+      "role": "Mwandishi wa Habari • Radio Joy 90.5 FM",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&q=80"
+    },
+    "publishedAt": "28 Ago 2026",
+    "readTimeMinutes": 2,
+    "tags": [
+      "Kasulu"
+    ],
+    "isBreaking": false,
+    "isTrending": false,
+    "viewsCount": 1825,
+    "sharesCount": 195,
+    "originalUrl": "https://radiojoyfm.co.tz/wananchi-titye-kasulu-waanza-ujenzi-wa-shule-mpya-ya-msingi/",
+    "sourceType": "wordpress"
+  },
+  {
+    "id": "joy-2403",
+    "title": "Wazazi wakabidhi madawati 100 kwa wanafunzi  shule ya msingi Titye Kasulu",
+    "summary": "Kutengeneza madawati huwasaidia wanafunzi kupata sehemu nzuri ya kukalia wakati wa masomo badala ya kukaa",
+    "content": [
+      "Kutengeneza madawati huwasaidia wanafunzi kupata sehemu nzuri ya kukalia wakati wa masomo badala ya kukaa sakafuni, wanafunzi hukaa kwenye madawati na hivyo kuwa tayari kujifunza Na Emmanuel Kamangu Wazazi na walezi wa shule ya msingi titye kata ya titye Halmashauri ya Wilaya ya Kasulu wametengeneza madawati 100 na kuyakabidhi kwa shule hiyo ili kukabiliana na wimbi la watoto kukaa…"
+    ],
+    "rawHtml": "<p>Kutengeneza madawati huwasaidia wanafunzi kupata sehemu nzuri ya kukalia wakati wa masomo badala ya kukaa sakafuni, wanafunzi hukaa kwenye madawati na hivyo kuwa tayari kujifunza Na Emmanuel Kamangu Wazazi na walezi wa shule ya msingi titye kata ya titye Halmashauri ya Wilaya ya Kasulu wametengeneza madawati 100 na kuyakabidhi kwa shule hiyo ili kukabiliana na wimbi la watoto kukaa…</p>\n<p><a href=\"https://radiotadio.co.tz/joyfm/2026/08/27/10665/\" rel=\"nofollow\">Source</a></p>\n",
+    "category": "jamii",
+    "imageUrl": "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=1200&q=80",
+    "caption": "Wazazi wakabidhi madawati 100 kwa wanafunzi  shule ya msingi Titye Kasulu",
+    "author": {
+      "name": "Emmanuel Kamangu",
+      "role": "Mwandishi wa Habari • Radio Joy 90.5 FM",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&q=80"
+    },
+    "publishedAt": "27 Ago 2026",
+    "readTimeMinutes": 2,
+    "tags": [
+      "Kasulu"
+    ],
+    "isBreaking": false,
+    "isTrending": false,
+    "viewsCount": 1760,
+    "sharesCount": 186,
+    "originalUrl": "https://radiojoyfm.co.tz/wazazi-wakabidhi-madawati-100-kwa-wanafunzi-shule-ya-msingi-titye-kasulu/",
+    "sourceType": "wordpress"
+  },
+  {
+    "id": "joy-2402",
+    "title": "Cambridge shire yasisitiza malezi bora kwa watoto Kigoma",
+    "summary": "Malezi bora ya watoto ni jambo muhimu katika maisha ya kila mtoto na malezi huanzia",
+    "content": [
+      "Malezi bora ya watoto ni jambo muhimu katika maisha ya kila mtoto na malezi huanzia nyumbani kwa huhusisha namna wazazi au walezi wanavyomlea, kumlinda, kumfundisha au kumpa mahitaji muhimu, mtoto anayepata malezi bora huwa na nafasi kubwa ya kukua akiwa na afya njema, tabia nzuri na uwezo wa kuishi vizuri na watu wengine Na Sofia Cosmas Wazazi na walezi katika Manispaa ya Kigoma Ujiji…"
+    ],
+    "rawHtml": "<p>Malezi bora ya watoto ni jambo muhimu katika maisha ya kila mtoto na malezi huanzia nyumbani kwa huhusisha namna wazazi au walezi wanavyomlea, kumlinda, kumfundisha au kumpa mahitaji muhimu, mtoto anayepata malezi bora huwa na nafasi kubwa ya kukua akiwa na afya njema, tabia nzuri na uwezo wa kuishi vizuri na watu wengine Na Sofia Cosmas Wazazi na walezi katika Manispaa ya Kigoma Ujiji…</p>\n<p><a href=\"https://radiotadio.co.tz/joyfm/2026/08/26/10659/\" rel=\"nofollow\">Source</a></p>\n",
+    "category": "jamii",
+    "imageUrl": "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=1200&q=80",
+    "caption": "Cambridge shire yasisitiza malezi bora kwa watoto Kigoma",
+    "author": {
+      "name": "Chumba cha Habari cha Radio Joy",
+      "role": "Mwandishi wa Habari • Radio Joy 90.5 FM",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&q=80"
+    },
+    "publishedAt": "26 Ago 2026",
+    "readTimeMinutes": 2,
+    "tags": [
+      "Kigoma"
+    ],
+    "isBreaking": false,
+    "isTrending": false,
+    "viewsCount": 1695,
+    "sharesCount": 177,
+    "originalUrl": "https://radiojoyfm.co.tz/cambridge-shire-yasisitiza-malezi-bora-kwa-watoto-kigoma/",
+    "sourceType": "wordpress"
+  },
+  {
+    "id": "joy-2401",
+    "title": "Waziri wa ulinzi akagua miradi ya maendeleo Kigoma",
+    "summary": "Ziara ya Waziri Nyansaho Mkoani Kigoma inalenga kufuatilia utekelezaji wa miradi ya maendeleo yenye umuhimu",
+    "content": [
+      "Ziara ya Waziri Nyansaho Mkoani Kigoma inalenga kufuatilia utekelezaji wa miradi ya maendeleo yenye umuhimu wa kimkakati, huku ikisisitiza umuhimu wa usalama, miundombinu na ustawi wa wananchi Na Mwandishi wetu Waziri wa Ulinzi na Jeshi la Kujenga Taifa Dkt. Rhimo Nyansaho amesema ujenzi wa kituo cha pamoja cha Forodha kilichopo Manyovu wilayani Buhigwe Mkoani hapa…"
+    ],
+    "rawHtml": "<p>Ziara ya Waziri Nyansaho Mkoani Kigoma inalenga kufuatilia utekelezaji wa miradi ya maendeleo yenye umuhimu wa kimkakati, huku ikisisitiza umuhimu wa usalama, miundombinu na ustawi wa wananchi Na Mwandishi wetu Waziri wa Ulinzi na Jeshi la Kujenga Taifa Dkt. Rhimo Nyansaho amesema ujenzi wa kituo cha pamoja cha Forodha kilichopo Manyovu wilayani Buhigwe Mkoani hapa…</p>\n<p><a href=\"https://radiotadio.co.tz/joyfm/2026/08/24/10642/\" rel=\"nofollow\">Source</a></p>\n",
+    "category": "habari-leo",
+    "imageUrl": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1200&q=80",
+    "caption": "Waziri wa ulinzi akagua miradi ya maendeleo Kigoma",
+    "author": {
+      "name": "Mwandishi Wetu",
+      "role": "Mwandishi wa Habari • Radio Joy 90.5 FM",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&q=80"
+    },
+    "publishedAt": "24 Ago 2026",
+    "readTimeMinutes": 2,
+    "tags": [
+      "Kigoma"
+    ],
+    "isBreaking": false,
+    "isTrending": false,
+    "viewsCount": 1630,
+    "sharesCount": 168,
+    "originalUrl": "https://radiojoyfm.co.tz/waziri-wa-ulinzi-akagua-miradi-ya-maendeleo-kigoma/",
+    "sourceType": "wordpress"
+  },
+  {
+    "id": "joy-2400",
+    "title": "Wazazi na walezi watakiwa kulea watoto katika maadili Kasulu",
+    "summary": "Malezi bora kwa watoto ni msingi imara kwa maisha yao ya baadaye Na Hagai Ruyagila",
+    "content": [
+      "Malezi bora kwa watoto ni msingi imara kwa maisha yao ya baadaye Na Hagai Ruyagila Wazazi na Walezi katika Halmashauri ya Mji Kasulu Mkoani Kigoma wametakiwa kuwalea watoto wao katika misingi ya maadili mema, ili waweze kuwa na mwenendo mzuri, kuheshimu jamii na kuwa viongozi bora wa baadaye. Wito huo umetolewa na kaimu mkurugenzi wa Halmashauri ya Mji Kasulu, Nurfus Aziz Ndee…"
+    ],
+    "rawHtml": "<p>Malezi bora kwa watoto ni msingi imara kwa maisha yao ya baadaye Na Hagai Ruyagila Wazazi na Walezi katika Halmashauri ya Mji Kasulu Mkoani Kigoma wametakiwa kuwalea watoto wao katika misingi ya maadili mema, ili waweze kuwa na mwenendo mzuri, kuheshimu jamii na kuwa viongozi bora wa baadaye. Wito huo umetolewa na kaimu mkurugenzi wa Halmashauri ya Mji Kasulu, Nurfus Aziz Ndee…</p>\n<p><a href=\"https://radiotadio.co.tz/joyfm/2026/08/24/10647/\" rel=\"nofollow\">Source</a></p>\n",
+    "category": "jamii",
+    "imageUrl": "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=1200&q=80",
+    "caption": "Wazazi na walezi watakiwa kulea watoto katika maadili Kasulu",
+    "author": {
+      "name": "Hagai Ruyagila",
+      "role": "Mwandishi wa Habari • Radio Joy 90.5 FM",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&q=80"
+    },
+    "publishedAt": "24 Ago 2026",
+    "readTimeMinutes": 2,
+    "tags": [
+      "Kasulu"
+    ],
+    "isBreaking": false,
+    "isTrending": false,
+    "viewsCount": 1565,
+    "sharesCount": 159,
+    "originalUrl": "https://radiojoyfm.co.tz/wazazi-na-walezi-watakiwa-kulea-watoto-katika-maadili-kasulu/",
+    "sourceType": "wordpress"
+  },
+  {
+    "id": "joy-2399",
+    "title": "Ulinzi shirikishi waimarisha usalama kwa wananchi Murusi Kasulu",
+    "summary": "Ulinzi shirikishi ni jukumu la mwananchi katika kuhakikisha vitendo vya wizi, udokozi na uporaji vinakomeshwa",
+    "content": [
+      "Ulinzi shirikishi ni jukumu la mwananchi katika kuhakikisha vitendo vya wizi, udokozi na uporaji vinakomeshwa kwenye jamii na kuchochea maendeleo Na Hagai Ruyagila Uwepo wa kikundi cha ulinzi shirikishi katika Kata ya Murusi, Halmashauri ya Mji Kasulu mkoani Kigoma, umeendelea kusaidia kuimarisha hali ya ulinzi na usalama pamoja na kurejesha utulivu kwa wananchi wa kata hiyo."
+    ],
+    "rawHtml": "<p>Ulinzi shirikishi ni jukumu la mwananchi katika kuhakikisha vitendo vya wizi, udokozi na uporaji vinakomeshwa kwenye jamii na kuchochea maendeleo Na Hagai Ruyagila Uwepo wa kikundi cha ulinzi shirikishi katika Kata ya Murusi, Halmashauri ya Mji Kasulu mkoani Kigoma, umeendelea kusaidia kuimarisha hali ya ulinzi na usalama pamoja na kurejesha utulivu kwa wananchi wa kata hiyo.</p>\n<p><a href=\"https://radiotadio.co.tz/joyfm/2026/08/21/10611/\" rel=\"nofollow\">Source</a></p>\n",
+    "category": "habari-leo",
+    "imageUrl": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1200&q=80",
+    "caption": "Ulinzi shirikishi waimarisha usalama kwa wananchi Murusi Kasulu",
+    "author": {
+      "name": "Hagai Ruyagila",
+      "role": "Mwandishi wa Habari • Radio Joy 90.5 FM",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&q=80"
+    },
+    "publishedAt": "21 Ago 2026",
+    "readTimeMinutes": 2,
+    "tags": [
+      "Kasulu"
+    ],
+    "isBreaking": false,
+    "isTrending": false,
+    "viewsCount": 1500,
+    "sharesCount": 150,
+    "originalUrl": "https://radiojoyfm.co.tz/ulinzi-shirikishi-waimarisha-usalama-kwa-wananchi-murusi-kasulu/",
+    "sourceType": "wordpress"
+  },
+  {
+    "id": "joy-2398",
+    "title": "Wajasiriamali mwalo wa Kalalangabo Kigoma waomba barabara kuboreshwa",
+    "summary": "Uboreshaji wa miundombinu ni sehemu ya mkakati wa kukuza na kustawisha biashara za wajariamali na",
+    "content": [
+      "Uboreshaji wa miundombinu ni sehemu ya mkakati wa kukuza na kustawisha biashara za wajariamali na kuongeza kipato cha familia zao na Taifa kwa ujumla Na Josephine Kiravu Wajasiriamali katika mwalo wa Kalalangabo kata ya Ziwani Halmashauri ya Wilaya ya Kigoma wameiomba Serikali kuboresha miundombinu ya barabara kutoka eneo hilo kuelekea kibirizi sambamba na kusimamia vyema usafi wa…"
+    ],
+    "rawHtml": "<p>Uboreshaji wa miundombinu ni sehemu ya mkakati wa kukuza na kustawisha biashara za wajariamali na kuongeza kipato cha familia zao na Taifa kwa ujumla Na Josephine Kiravu Wajasiriamali katika mwalo wa Kalalangabo kata ya Ziwani Halmashauri ya Wilaya ya Kigoma wameiomba Serikali kuboresha miundombinu ya barabara kutoka eneo hilo kuelekea kibirizi sambamba na kusimamia vyema usafi wa…</p>\n<p><a href=\"https://radiotadio.co.tz/joyfm/2026/08/21/10619/\" rel=\"nofollow\">Source</a></p>\n",
+    "category": "biashara",
+    "imageUrl": "https://images.unsplash.com/photo-1515162816999-a0c47dc192f7?w=1200&q=80",
+    "caption": "Wajasiriamali mwalo wa Kalalangabo Kigoma waomba barabara kuboreshwa",
+    "author": {
+      "name": "Josephine Kiravu",
+      "role": "Mwandishi wa Habari • Radio Joy 90.5 FM",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&q=80"
+    },
+    "publishedAt": "21 Ago 2026",
+    "readTimeMinutes": 2,
+    "tags": [
+      "Kigoma"
+    ],
+    "isBreaking": false,
+    "isTrending": false,
+    "viewsCount": 1435,
+    "sharesCount": 141,
+    "originalUrl": "https://radiojoyfm.co.tz/wajasiriamali-mwalo-wa-kalalangabo-kigoma-waomba-barabara-kuboreshwa/",
+    "sourceType": "wordpress"
+  },
+  {
+    "id": "joy-2397",
+    "title": "RC Sirro azitaka halmashauri kusimamia miradi kikamilifu",
+    "summary": "Usimamizi wa miradi na kuikamilisha kwa wakati husaidia kuanza kutoa huduma zilizo bora kwa wananchi",
+    "content": [
+      "Usimamizi wa miradi na kuikamilisha kwa wakati husaidia kuanza kutoa huduma zilizo bora kwa wananchi Na Mwandishi wetu Mkuu wa Mkoa wa Kigoma Balozi Simon Sirro amezitaka Halmashauri Mkoani humo kuendelea kuzingatia usimamizi wa miradi na kuikamilisha kwa wakati na kwa ubora unaotakiwa Balozi Sirro amesema hayo akiwa wilayani Kibondo katika ziara ya kukagua miradi ya maendeleo…"
+    ],
+    "rawHtml": "<p>Usimamizi wa miradi na kuikamilisha kwa wakati husaidia kuanza kutoa huduma zilizo bora kwa wananchi Na Mwandishi wetu Mkuu wa Mkoa wa Kigoma Balozi Simon Sirro amezitaka Halmashauri Mkoani humo kuendelea kuzingatia usimamizi wa miradi na kuikamilisha kwa wakati na kwa ubora unaotakiwa Balozi Sirro amesema hayo akiwa wilayani Kibondo katika ziara ya kukagua miradi ya maendeleo…</p>\n<p><a href=\"https://radiotadio.co.tz/joyfm/2026/08/21/10634/\" rel=\"nofollow\">Source</a></p>\n",
+    "category": "habari-leo",
+    "imageUrl": "https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=1200&q=80",
+    "caption": "RC Sirro azitaka halmashauri kusimamia miradi kikamilifu",
+    "author": {
+      "name": "Mwandishi Wetu",
+      "role": "Mwandishi wa Habari • Radio Joy 90.5 FM",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&q=80"
+    },
+    "publishedAt": "21 Ago 2026",
+    "readTimeMinutes": 2,
+    "tags": [
+      "Kigoma",
+      "Habari"
+    ],
+    "isBreaking": false,
+    "isTrending": false,
+    "viewsCount": 1370,
+    "sharesCount": 132,
+    "originalUrl": "https://radiojoyfm.co.tz/rc-sirro-azitaka-halmashauri-kusimamia-miradi-kikamilifu/",
+    "sourceType": "wordpress"
+  },
+  {
+    "id": "joy-2396",
+    "title": "Waziri Katimba ataka wananchi kuchangamkia mikopo ya 10% Kigoma",
+    "summary": "Serikali imekuwa ikitoa mikopo ya asilimia 10 ya mapato ya halmashauri kwa makundi mbalimbali, huku",
+    "content": [
+      "Serikali imekuwa ikitoa mikopo ya asilimia 10 ya mapato ya halmashauri kwa makundi mbalimbali, huku ikiweka msisitizo katika usimamizi na utoaji wa elimu kwa wanufaika ili kuhakikisha mikopo hiyo inaleta matokeo yaliyokusudiwa. Na Mwandishi Wetu Naibu Waziri wa Katiba na Sheria, Bi. Zainab Katimba, amewataka Maafisa Maendeleo ya Jamii kuendelea kutoa elimu na hamasa kwa wananchi…"
+    ],
+    "rawHtml": "<p>Serikali imekuwa ikitoa mikopo ya asilimia 10 ya mapato ya halmashauri kwa makundi mbalimbali, huku ikiweka msisitizo katika usimamizi na utoaji wa elimu kwa wanufaika ili kuhakikisha mikopo hiyo inaleta matokeo yaliyokusudiwa. Na Mwandishi Wetu Naibu Waziri wa Katiba na Sheria, Bi. Zainab Katimba, amewataka Maafisa Maendeleo ya Jamii kuendelea kutoa elimu na hamasa kwa wananchi…</p>\n<p><a href=\"https://radiotadio.co.tz/joyfm/2026/08/20/10583/\" rel=\"nofollow\">Source</a></p>\n",
+    "category": "habari-leo",
+    "imageUrl": "https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=1200&q=80",
+    "caption": "Waziri Katimba ataka wananchi kuchangamkia mikopo ya 10% Kigoma",
+    "author": {
+      "name": "Mwandishi Wetu",
+      "role": "Mwandishi wa Habari • Radio Joy 90.5 FM",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&q=80"
+    },
+    "publishedAt": "20 Ago 2026",
+    "readTimeMinutes": 2,
+    "tags": [
+      "Kigoma"
+    ],
+    "isBreaking": false,
+    "isTrending": false,
+    "viewsCount": 1305,
+    "sharesCount": 123,
+    "originalUrl": "https://radiojoyfm.co.tz/waziri-katimba-ataka-wananchi-kuchangamkia-mikopo-ya-10-kigoma/",
+    "sourceType": "wordpress"
+  },
+  {
+    "id": "joy-2395",
+    "title": "Madereva walia na ukosefu wa stendi Kibirizi Kigoma",
+    "summary": "Kata ya Kibirizi ni miongoni mwa Kata zenye mwingiliano wa watu kutokana na shughuli mbalimbali",
+    "content": [
+      "Kata ya Kibirizi ni miongoni mwa Kata zenye mwingiliano wa watu kutokana na shughuli mbalimbali za biashara zinazofanyika katika eneo hilo na kutokana na sababu hiyo vyombo vya usafiri lazima ziwepo na uhitaji wa stendi ni jambo muhimu Na LucaS Hoha Baadhi ya madereva wa vyombo vya moto vinavyosafirisha abiria kutoka Soko la Kibirizi kwenda Ujiji na maeneo mengine ya Manispaa ya Kigoma…"
+    ],
+    "rawHtml": "<p>Kata ya Kibirizi ni miongoni mwa Kata zenye mwingiliano wa watu kutokana na shughuli mbalimbali za biashara zinazofanyika katika eneo hilo na kutokana na sababu hiyo vyombo vya usafiri lazima ziwepo na uhitaji wa stendi ni jambo muhimu Na LucaS Hoha Baadhi ya madereva wa vyombo vya moto vinavyosafirisha abiria kutoka Soko la Kibirizi kwenda Ujiji na maeneo mengine ya Manispaa ya Kigoma…</p>\n<p><a href=\"https://radiotadio.co.tz/joyfm/2026/08/20/10597/\" rel=\"nofollow\">Source</a></p>\n",
+    "category": "habari-leo",
+    "imageUrl": "https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=1200&q=80",
+    "caption": "Madereva walia na ukosefu wa stendi Kibirizi Kigoma",
+    "author": {
+      "name": "Lucas Hoha",
+      "role": "Mwandishi wa Habari • Radio Joy 90.5 FM",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&q=80"
+    },
+    "publishedAt": "20 Ago 2026",
+    "readTimeMinutes": 2,
+    "tags": [
+      "Kigoma"
+    ],
+    "isBreaking": false,
+    "isTrending": false,
+    "viewsCount": 1240,
+    "sharesCount": 114,
+    "originalUrl": "https://radiojoyfm.co.tz/madereva-walia-na-ukosefu-wa-stendi-kibirizi-kigoma/",
+    "sourceType": "wordpress"
+  },
+  {
+    "id": "joy-2394",
+    "title": "RC Kigoma ataka vyama vya ushirika kuwa waadilifu",
+    "summary": "Zao la tumbaku ni moja ya mazao makuu ya biashara katika mkoa wa Kigoma ikiwaingizia",
+    "content": [
+      "Zao la tumbaku ni moja ya mazao makuu ya biashara katika mkoa wa Kigoma ikiwaingizia kipato wakulima wengi hasa katika wilaya za Kasulu, Kakonko na Uvinza Na Josephine Kiravu Mkuu wa Mkoa wa Kigoma Balozi Simon Sirro amevitaka vyama vya ushirika kuwa waadilifu ili kuendelea kukuza uzalishaji wa zao la tumbaku ambapo kwa mwaka 2025/2026 lilishika nafasi ya pili kwa ngazi ya mkoa kwa…"
+    ],
+    "rawHtml": "<p>Zao la tumbaku ni moja ya mazao makuu ya biashara katika mkoa wa Kigoma ikiwaingizia kipato wakulima wengi hasa katika wilaya za Kasulu, Kakonko na Uvinza Na Josephine Kiravu Mkuu wa Mkoa wa Kigoma Balozi Simon Sirro amevitaka vyama vya ushirika kuwa waadilifu ili kuendelea kukuza uzalishaji wa zao la tumbaku ambapo kwa mwaka 2025/2026 lilishika nafasi ya pili kwa ngazi ya mkoa kwa…</p>\n<p><a href=\"https://radiotadio.co.tz/joyfm/2026/08/20/10605/\" rel=\"nofollow\">Source</a></p>\n",
+    "category": "biashara",
+    "imageUrl": "https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=1200&q=80",
+    "caption": "RC Kigoma ataka vyama vya ushirika kuwa waadilifu",
+    "author": {
+      "name": "Josephine Kiravu",
+      "role": "Mwandishi wa Habari • Radio Joy 90.5 FM",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&q=80"
+    },
+    "publishedAt": "20 Ago 2026",
+    "readTimeMinutes": 2,
+    "tags": [
+      "Kigoma"
+    ],
+    "isBreaking": false,
+    "isTrending": false,
+    "viewsCount": 1175,
+    "sharesCount": 105,
+    "originalUrl": "https://radiojoyfm.co.tz/rc-kigoma-ataka-vyama-vya-ushirika-kuwa-waadilifu/",
+    "sourceType": "wordpress"
+  },
+  {
+    "id": "joy-2393",
+    "title": "Kigoma yazidi kuimarisha utayari dhidi ya ebola",
+    "summary": "Serikali kwa kushirikiana na wadau mbalimbali imeendelea kutoa elimu kwa wananchi ili waweze kujikinga na",
+    "content": [
+      "Serikali kwa kushirikiana na wadau mbalimbali imeendelea kutoa elimu kwa wananchi ili waweze kujikinga na magonjwa ya mlipuko ikiwemo Ebola Na Mwandishi wetu Ukiwa ni mikakati wa Serikali kuimarisha utayari katika kudhibiti uwezekano wa magonjwa ya mlipuko kuingia nchini, Ofisi ya Rais, TAMISEMI kwa kushirikiana na Wizara ya Afya wameongoza zoezi la ukaguzi wa maeneo tengefu kwa lengo…"
+    ],
+    "rawHtml": "<p>Serikali kwa kushirikiana na wadau mbalimbali imeendelea kutoa elimu kwa wananchi ili waweze kujikinga na magonjwa ya mlipuko ikiwemo Ebola Na Mwandishi wetu Ukiwa ni mikakati wa Serikali kuimarisha utayari katika kudhibiti uwezekano wa magonjwa ya mlipuko kuingia nchini, Ofisi ya Rais, TAMISEMI kwa kushirikiana na Wizara ya Afya wameongoza zoezi la ukaguzi wa maeneo tengefu kwa lengo…</p>\n<p><a href=\"https://radiotadio.co.tz/joyfm/2026/08/19/10579/\" rel=\"nofollow\">Source</a></p>\n",
+    "category": "jamii",
+    "imageUrl": "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=1200&q=80",
+    "caption": "Kigoma yazidi kuimarisha utayari dhidi ya ebola",
+    "author": {
+      "name": "Mwandishi Wetu",
+      "role": "Mwandishi wa Habari • Radio Joy 90.5 FM",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&q=80"
+    },
+    "publishedAt": "19 Ago 2026",
+    "readTimeMinutes": 2,
+    "tags": [
+      "Kigoma"
+    ],
+    "isBreaking": false,
+    "isTrending": false,
+    "viewsCount": 1110,
+    "sharesCount": 96,
+    "originalUrl": "https://radiojoyfm.co.tz/kigoma-yazidi-kuimarisha-utayari-dhidi-ya-ebola/",
+    "sourceType": "wordpress"
+  },
+  {
+    "id": "joy-2392",
+    "title": "Vijana watakiwa kujikita katika kufanya kazi Buhigwe",
+    "summary": "Vijana wameeleza kuwa baadhi yao wamekuwa wakikwepa kazi zinazohitaji juhudi kubwa na badala yake kutafuta",
+    "content": [
+      "Vijana wameeleza kuwa baadhi yao wamekuwa wakikwepa kazi zinazohitaji juhudi kubwa na badala yake kutafuta kazi rahisi. Na Emmanuel Kamangu Vijana katika Halmashauri ya Wilaya ya Buhigwe Mkoani Kigoma wametakiwa kuachana na tabia ya utegemezi na kujikita katika kufanya kazi ili kujikwamua kiuchumi na kujenga maisha yao ya baadaye. Wito huo umetolewa na Afisa Maendeleo ya Jamii wa…"
+    ],
+    "rawHtml": "<p>Vijana wameeleza kuwa baadhi yao wamekuwa wakikwepa kazi zinazohitaji juhudi kubwa na badala yake kutafuta kazi rahisi. Na Emmanuel Kamangu Vijana katika Halmashauri ya Wilaya ya Buhigwe Mkoani Kigoma wametakiwa kuachana na tabia ya utegemezi na kujikita katika kufanya kazi ili kujikwamua kiuchumi na kujenga maisha yao ya baadaye. Wito huo umetolewa na Afisa Maendeleo ya Jamii wa…</p>\n<p><a href=\"https://radiotadio.co.tz/joyfm/2026/08/18/10574/\" rel=\"nofollow\">Source</a></p>\n",
+    "category": "habari-leo",
+    "imageUrl": "https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=1200&q=80",
+    "caption": "Vijana watakiwa kujikita katika kufanya kazi Buhigwe",
+    "author": {
+      "name": "Emmanuel Kamangu",
+      "role": "Mwandishi wa Habari • Radio Joy 90.5 FM",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&q=80"
+    },
+    "publishedAt": "18 Ago 2026",
+    "readTimeMinutes": 2,
+    "tags": [
+      "Buhigwe"
+    ],
+    "isBreaking": false,
+    "isTrending": false,
+    "viewsCount": 1045,
+    "sharesCount": 87,
+    "originalUrl": "https://radiojoyfm.co.tz/vijana-watakiwa-kujikita-katika-kufanya-kazi-buhigwe/",
+    "sourceType": "wordpress"
+  },
+  {
+    "id": "joy-2391",
+    "title": "DC Kigoma ahimiza wananchi kuzingatia usafi wa mazingira",
+    "summary": "Usafi wa mazingira ni jambo muhimu sana katika maisha ya kila siku na kila mtu",
+    "content": [
+      "Usafi wa mazingira ni jambo muhimu sana katika maisha ya kila siku na kila mtu ana wajibu wa kuhakikisha mazingira yanakuwa safi na salama na hii ni muhimu zaidi katika maeneo ya sokoni kwa sababu sokoni hukusanyika watu wengi na huuzwa vyakula na bidhaa mbalimbali ambazo zinazalisha uchafu Na Mwandishi wetu Mkuu wa Wilaya ya Kigoma Mkoani Kigoma Dkt. Rashid Chuachua amewahimiza wananchi…"
+    ],
+    "rawHtml": "<p>Usafi wa mazingira ni jambo muhimu sana katika maisha ya kila siku na kila mtu ana wajibu wa kuhakikisha mazingira yanakuwa safi na salama na hii ni muhimu zaidi katika maeneo ya sokoni kwa sababu sokoni hukusanyika watu wengi na huuzwa vyakula na bidhaa mbalimbali ambazo zinazalisha uchafu Na Mwandishi wetu Mkuu wa Wilaya ya Kigoma Mkoani Kigoma Dkt. Rashid Chuachua amewahimiza wananchi…</p>\n<p><a href=\"https://radiotadio.co.tz/joyfm/2026/08/17/10557/\" rel=\"nofollow\">Source</a></p>\n",
+    "category": "habari-leo",
+    "imageUrl": "https://images.unsplash.com/photo-1530587191325-3db32d826c18?w=1200&q=80",
+    "caption": "DC Kigoma ahimiza wananchi kuzingatia usafi wa mazingira",
+    "author": {
+      "name": "Mwandishi Wetu",
+      "role": "Mwandishi wa Habari • Radio Joy 90.5 FM",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&q=80"
+    },
+    "publishedAt": "17 Ago 2026",
+    "readTimeMinutes": 2,
+    "tags": [
+      "Kigoma"
+    ],
+    "isBreaking": false,
+    "isTrending": false,
+    "viewsCount": 980,
+    "sharesCount": 78,
+    "originalUrl": "https://radiojoyfm.co.tz/dc-kigoma-ahimiza-wananchi-kuzingatia-usafi-wa-mazingira/",
+    "sourceType": "wordpress"
+  },
+  {
+    "id": "joy-2390",
+    "title": "ALAT Kigoma yatembelea miradi ya maendeleo Kibondo",
+    "summary": "Halmashauri ya Wilaya Kibondo Mkoani Kigoma imepongezwa kwa utekelezaji wa miradi ya maendeleo kwa wananchi",
+    "content": [
+      "Halmashauri ya Wilaya Kibondo Mkoani Kigoma imepongezwa kwa utekelezaji wa miradi ya maendeleo kwa wananchi Na Mwandishi wetu ‎Wajumbe wa jumuiya ya tawala za Mitaa Tanzania, ALAT Mkoa wa Kigoma wametakiwa kuendelea kishirikiana katika kufikia malengo ya kukuza maendeleo na uchumi wa halmashari za mkoa wa Kigoma. Mwenyekiti wa ALAT mkoa wa Kigoma Bw."
+    ],
+    "rawHtml": "<p>Halmashauri ya Wilaya Kibondo Mkoani Kigoma imepongezwa kwa utekelezaji wa miradi ya maendeleo kwa wananchi Na Mwandishi wetu ‎Wajumbe wa jumuiya ya tawala za Mitaa Tanzania, ALAT Mkoa wa Kigoma wametakiwa kuendelea kishirikiana katika kufikia malengo ya kukuza maendeleo na uchumi wa halmashari za mkoa wa Kigoma. Mwenyekiti wa ALAT mkoa wa Kigoma Bw.</p>\n<p><a href=\"https://radiotadio.co.tz/joyfm/2026/08/15/10540/\" rel=\"nofollow\">Source</a></p>\n",
+    "category": "habari-leo",
+    "imageUrl": "https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=1200&q=80",
+    "caption": "ALAT Kigoma yatembelea miradi ya maendeleo Kibondo",
+    "author": {
+      "name": "Mwandishi Wetu",
+      "role": "Mwandishi wa Habari • Radio Joy 90.5 FM",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&q=80"
+    },
+    "publishedAt": "15 Ago 2026",
+    "readTimeMinutes": 2,
+    "tags": [
+      "Kibondo",
+      "Kigoma"
+    ],
+    "isBreaking": false,
+    "isTrending": false,
+    "viewsCount": 915,
+    "sharesCount": 69,
+    "originalUrl": "https://radiojoyfm.co.tz/alat-kigoma-yatembelea-miradi-ya-maendeleo-kibondo/",
+    "sourceType": "wordpress"
   }
 ];
 
@@ -494,11 +1326,11 @@ export const INITIAL_NOTIFICATIONS: PushNotification[] = [
   {
     id: 'notif-1',
     title: 'HABARI ZA HIVI PUNDE 🚨',
-    body: 'Mwang’onda ataka wahandisi kuimarisha usimamizi wa miradi ya elimu na maji Kigoma.',
+    body: 'Mbunge atoa milioni 2.5 kusaidia mama asiyekuwa nyumba Ruchugi Uvinza.',
     timestamp: 'Dakika 10 zilizopita',
     type: 'breaking',
     isRead: false,
-    relatedArticleId: 'art-joy-1',
+    relatedArticleId: 'joy-2425',
   },
   {
     id: 'notif-2',
@@ -511,10 +1343,10 @@ export const INITIAL_NOTIFICATIONS: PushNotification[] = [
   {
     id: 'notif-3',
     title: 'TAARIFA YA MICHEZO ⚽',
-    body: 'Dimba la Michezo: Timu za Kigoma zafanya maandalizi makubwa kuelekea mechi za mtoano za Kombe la Shirikisho.',
+    body: 'Mayeye CUP yaanza kurindima Kigoma DC kuibua vipaji vipya vya soka.',
     timestamp: 'Masaa 3 yaliyopita',
     type: 'sports',
     isRead: true,
-    relatedArticleId: 'art-joy-5',
+    relatedArticleId: 'joy-2409',
   }
 ];

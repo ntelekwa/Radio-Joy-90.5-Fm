@@ -232,11 +232,11 @@ export class NewsService {
     const cleanUrl = baseUrl.replace(/\/+$/, '');
     // Support either direct wp-json link or root domain
     const endpoint = cleanUrl.includes('/wp-json')
-      ? `${cleanUrl}?_embed=1&per_page=30`
-      : `${cleanUrl}/wp-json/wp/v2/posts?_embed=1&per_page=30`;
+      ? `${cleanUrl}?_embed=1&per_page=50`
+      : `${cleanUrl}/wp-json/wp/v2/posts?_embed=1&per_page=50`;
 
     const headers: Record<string, string> = {
-      'User-Agent': 'MwangazaFM-App/2.0 (Mobile News Aggregator; +https://mwangazafm.co.tz)',
+      'User-Agent': 'RadioJoyFM-App/2.0 (Mobile News Aggregator; +https://radiojoyfm.co.tz)',
       'Accept': 'application/json',
     };
     if (apiKey) {
@@ -257,6 +257,67 @@ export class NewsService {
       throw new Error('WordPress API response did not contain an array of posts');
     }
 
+    const topicImages: Record<string, string> = {
+      ardhi: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200&q=80',
+      maji: 'https://images.unsplash.com/photo-1541888946425-d0fbb180c5f2?w=1200&q=80',
+      afya: 'https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?w=1200&q=80',
+      elimu: 'https://images.unsplash.com/photo-1509062522246-3755977927d7?w=1200&q=80',
+      michezo: 'https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=1200&q=80',
+      barabara: 'https://images.unsplash.com/photo-1515162816999-a0c47dc192f7?w=1200&q=80',
+      polisi: 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1200&q=80',
+      soko: 'https://images.unsplash.com/photo-1530587191325-3db32d826c18?w=1200&q=80',
+      mwenge: 'https://images.unsplash.com/photo-1532375810709-75b1da00537c?w=1200&q=80',
+      tamasha: 'https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=1200&q=80',
+      default: 'https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=1200&q=80',
+    };
+
+    const getTopicImage = (t: string): string => {
+      const lower = t.toLowerCase();
+      if (lower.includes('ardhi') || lower.includes('e-ardhi')) return topicImages.ardhi;
+      if (lower.includes('maji') || lower.includes('luhuru') || lower.includes('nyamnyunsi')) return topicImages.maji;
+      if (lower.includes('mama') || lower.includes('afya') || lower.includes('njiti') || lower.includes('fefo') || lower.includes('wajawazito')) return topicImages.afya;
+      if (lower.includes('sekondari') || lower.includes('shule') || lower.includes('madawati') || lower.includes('bwalo') || lower.includes('elimu') || lower.includes('malezi')) return topicImages.elimu;
+      if (lower.includes('cup') || lower.includes('mayeye') || lower.includes('mpira') || lower.includes('soka')) return topicImages.michezo;
+      if (lower.includes('barabara') || lower.includes('tarura') || lower.includes('wahandisi')) return topicImages.barabara;
+      if (lower.includes('polisi') || lower.includes('takukuru') || lower.includes('ulinzi') || lower.includes('mahakama')) return topicImages.polisi;
+      if (lower.includes('soko') || lower.includes('usafi') || lower.includes('pamba') || lower.includes('mpunga') || lower.includes('biashara')) return topicImages.soko;
+      if (lower.includes('mwenge')) return topicImages.mwenge;
+      if (lower.includes('tamasha') || lower.includes('urithi')) return topicImages.tamasha;
+      return topicImages.default;
+    };
+
+    const getSmartCategory = (title: string, text: string): CategoryId => {
+      const t = (title + ' ' + text).toLowerCase();
+      if (t.includes('cup') || t.includes('mpira') || t.includes('michezo') || t.includes('soka') || t.includes('ligi')) return 'michezo';
+      if (t.includes('afya') || t.includes('dawa') || t.includes('mama') || t.includes('hospitali') || t.includes('njiti') || t.includes('fefo') || t.includes('magonjwa')) return 'jamii';
+      if (t.includes('e-ardhi') || t.includes('ardhi') || t.includes('tehama') || t.includes('teknolojia') || t.includes('kielektroniki')) return 'teknolojia';
+      if (t.includes('soko') || t.includes('pamba') || t.includes('biashara') || t.includes('famasi') || t.includes('uchumi') || t.includes('shilingi') || t.includes('milioni') || t.includes('bilioni')) return 'biashara';
+      if (t.includes('tamasha') || t.includes('urithi') || t.includes('muziki') || t.includes('burudani')) return 'burudani';
+      if (t.includes('elimu') || t.includes('shule') || t.includes('madawati') || t.includes('bwalo') || t.includes('maji') || t.includes('nyamnyunsi') || t.includes('malezi')) return 'jamii';
+      return 'habari-leo';
+    };
+
+    const extractReporterName = (rawHtml: string): string => {
+      const reporters = [
+        'Josephine Kiravu',
+        'Orida Sayon',
+        'Lucas Hoha',
+        'Hagai Ruyagila',
+        'Emmanuel Kamangu',
+        'Sadick Kibwana',
+        'Wazo Mwang’onda'
+      ];
+      for (const r of reporters) {
+        if (rawHtml.toLowerCase().includes(r.toLowerCase())) {
+          return r;
+        }
+      }
+      if (rawHtml.includes('Mwandishi wetu') || rawHtml.includes('Mwandishi Wetu')) {
+        return 'Mwandishi Wetu';
+      }
+      return 'Chumba cha Habari cha Radio Joy';
+    };
+
     return posts.map((post: any, index: number): Article => {
       const title = decodeHtmlEntities(post.title?.rendered || 'Habari Isiyo na Kichwa');
       const excerpt = stripHtmlTags(post.excerpt?.rendered || '');
@@ -266,24 +327,19 @@ export class NewsService {
         content.push(excerpt);
       }
 
-      // Extract image
+      // Smart category and image matching
+      const category = getSmartCategory(title, excerpt + ' ' + rawHtml);
       const media = post._embedded?.['wp:featuredmedia']?.[0];
       const imageUrl =
         media?.source_url ||
         media?.media_details?.sizes?.large?.source_url ||
         post.featured_media_src_url ||
         extractFirstImage(rawHtml) ||
-        FALLBACK_IMAGES.kitaifa;
+        getTopicImage(title + ' ' + excerpt);
 
       // Extract author
-      const authorObj = post._embedded?.author?.[0];
-      const authorName = authorObj?.name ? decodeHtmlEntities(authorObj.name) : 'Chumba cha Habari';
-      const authorAvatar = authorObj?.avatar_urls?.['96'] || authorObj?.avatar_urls?.['48'] || 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&q=80';
-
-      // Category extraction
-      const terms = post._embedded?.['wp:term']?.[0] || [];
-      const primaryTerm = terms[0]?.name ? decodeHtmlEntities(terms[0].name) : '';
-      const category = normalizeCategory(primaryTerm || post.categories?.[0]?.toString());
+      const authorName = extractReporterName(rawHtml);
+      const authorAvatar = 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&q=80';
 
       // Published date
       const dateStr = post.date || post.date_gmt || new Date().toISOString();
@@ -293,8 +349,20 @@ export class NewsService {
       const wordCount = (excerpt + ' ' + content.join(' ')).split(/\s+/).length;
       const readTimeMinutes = Math.max(2, Math.round(wordCount / 180));
 
+      // Extract location tags
+      const tags: string[] = [];
+      const fullSearch = (title + ' ' + excerpt).toLowerCase();
+      if (fullSearch.includes('uvinza')) tags.push('Uvinza');
+      if (fullSearch.includes('kibondo')) tags.push('Kibondo');
+      if (fullSearch.includes('kasulu')) tags.push('Kasulu');
+      if (fullSearch.includes('buhigwe')) tags.push('Buhigwe');
+      if (fullSearch.includes('kakonko')) tags.push('Kakonko');
+      if (fullSearch.includes('kigoma')) tags.push('Kigoma');
+      if (fullSearch.includes('mwenge')) tags.push('Mwenge wa Uhuru');
+      if (tags.length === 0) tags.push('Kigoma', 'Habari');
+
       return {
-        id: `wp-${post.id || index}-${Date.now()}`,
+        id: `joy-${post.id || index}`,
         title,
         summary: excerpt || content[0] || 'Soma taarifa kamili mtandaoni.',
         content: content.length > 0 ? content : ['Soma habari hii kamili kwenye tovuti yetu.'],
@@ -304,16 +372,16 @@ export class NewsService {
         caption: decodeHtmlEntities(media?.caption?.rendered || title),
         author: {
           name: authorName,
-          role: 'Mwandishi wa Habari',
+          role: 'Mwandishi wa Habari • Radio Joy 90.5 FM',
           avatar: authorAvatar,
         },
         publishedAt,
         readTimeMinutes,
-        tags: terms.slice(1, 4).map((t: any) => decodeHtmlEntities(t.name)),
+        tags,
         isBreaking: index === 0,
-        isTrending: index < 3,
-        viewsCount: Math.floor(Math.random() * 1200) + 300,
-        sharesCount: Math.floor(Math.random() * 150) + 20,
+        isTrending: index >= 1 && index <= 3,
+        viewsCount: 600 + (posts.length - index) * 50,
+        sharesCount: 40 + (posts.length - index) * 7,
         originalUrl: post.link || baseUrl,
         sourceType: 'wordpress',
       };
