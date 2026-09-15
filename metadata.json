@@ -1,0 +1,10 @@
+{
+  "name": "Radio Joy 90.5 FM",
+  "description": "Tovuti na redio rasmi ya Radio Joy 90.5 FM Kigoma, Tanzania. Sikiliza matangazo mubashara masaa 24/7 na soma habari za hivi punde kutoka radiojoyfm.co.tz.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

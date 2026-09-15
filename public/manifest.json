@@ -1,0 +1,63 @@
+{
+  "id": "/",
+  "name": "Radio Joy 90.5 FM",
+  "short_name": "Radio Joy",
+  "description": "Sikiliza matangazo mubashara masaa 24/7 na soma habari za hivi punde kutoka Radio Joy 90.5 FM Kigoma.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#071d36",
+  "background_color": "#040f1d",
+  "lang": "sw",
+  "categories": ["news", "music", "entertainment"],
+  "icons": [
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/maskable-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Sikiliza Redio Live",
+      "short_name": "Redio Live",
+      "description": "Sikiliza matangazo mubashara ya Radio Joy 90.5 FM",
+      "url": "/?tab=radio",
+      "icons": [{ "src": "/icons/icon-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Habari za Hivi Punde",
+      "short_name": "Habari",
+      "description": "Soma habari mpya kutoka Kigoma na Tanzania",
+      "url": "/?tab=news",
+      "icons": [{ "src": "/icons/icon-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Ratiba ya Vipindi",
+      "short_name": "Vipindi",
+      "description": "Tazama ratiba ya vipindi vya leo",
+      "url": "/?tab=programs",
+      "icons": [{ "src": "/icons/icon-192x192.png", "sizes": "192x192" }]
+    }
+  ]
+}

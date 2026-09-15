@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgMask" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#041427" />
+      <stop offset="50%" stop-color="#0a294d" />
+      <stop offset="100%" stop-color="#030c17" />
+    </linearGradient>
+    <linearGradient id="yellowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="100%" stop-color="#eab308" />
+    </linearGradient>
+  </defs>
+
+  <!-- Maskable full bleed background -->
+  <rect width="512" height="512" fill="url(#bgMask)" />
+
+  <!-- Center Radio Joy Emblem Badge (within 80% safe zone) -->
+  <circle cx="256" cy="210" r="110" fill="none" stroke="#38bdf8" stroke-width="6" opacity="0.4" />
+  <circle cx="256" cy="210" r="70" fill="none" stroke="#facc15" stroke-width="6" opacity="0.6" />
+  <circle cx="256" cy="210" r="46" fill="url(#yellowGrad)" />
+
+  <path d="M256 180 C244 180 234 190 234 202 L234 224 C234 236 244 246 256 246 C268 246 278 236 278 224 L278 202 C278 190 268 180 256 180 Z" fill="#041427" />
+  <path d="M220 216 C220 236 236 252 256 252 C276 252 292 236 292 216" fill="none" stroke="#041427" stroke-width="6" stroke-linecap="round" />
+  <line x1="256" y1="252" x2="256" y2="270" stroke="#041427" stroke-width="6" stroke-linecap="round" />
+  <line x1="238" y1="270" x2="274" y2="270" stroke="#041427" stroke-width="6" stroke-linecap="round" />
+
+  <!-- Typography within safe zone -->
+  <text x="256" y="340" text-anchor="middle" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="44" fill="#ffffff" letter-spacing="2">
+    RADIO JOY
+  </text>
+  <g transform="translate(156, 360)">
+    <rect width="200" height="42" rx="21" fill="url(#yellowGrad)" />
+    <text x="100" y="29" text-anchor="middle" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="22" fill="#041427" letter-spacing="2">
+      90.5 FM
+    </text>
+  </g>
+</svg>

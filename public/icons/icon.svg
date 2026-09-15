@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#041427" />
+      <stop offset="50%" stop-color="#0a294d" />
+      <stop offset="100%" stop-color="#030c17" />
+    </linearGradient>
+    <linearGradient id="yellowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="100%" stop-color="#eab308" />
+    </linearGradient>
+    <linearGradient id="blueGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#1d4ed8" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background rounded rectangle -->
+  <rect width="512" height="512" rx="112" fill="url(#bg)" />
+
+  <!-- Outer subtle border -->
+  <rect x="8" y="8" width="496" height="496" rx="104" fill="none" stroke="#1e3a8a" stroke-width="6" opacity="0.6" />
+
+  <!-- Radio wave circles -->
+  <circle cx="256" cy="220" r="160" fill="none" stroke="#38bdf8" stroke-width="8" opacity="0.2" />
+  <circle cx="256" cy="220" r="120" fill="none" stroke="#facc15" stroke-width="8" opacity="0.35" />
+  <circle cx="256" cy="220" r="80" fill="none" stroke="#38bdf8" stroke-width="8" opacity="0.5" />
+
+  <!-- Center Radio Joy Emblem Badge -->
+  <circle cx="256" cy="220" r="54" fill="url(#yellowGrad)" />
+
+  <!-- Microphone / Tower Icon in center -->
+  <path d="M256 180 C242 180 230 192 230 206 L230 234 C230 248 242 260 256 260 C270 260 282 248 282 234 L282 206 C282 192 270 180 256 180 Z" fill="#041427" />
+  <path d="M214 226 C214 249 232 268 256 268 C280 268 298 249 298 226" fill="none" stroke="#041427" stroke-width="8" stroke-linecap="round" />
+  <line x1="256" y1="268" x2="256" y2="290" stroke="#041427" stroke-width="8" stroke-linecap="round" />
+  <line x1="234" y1="290" x2="278" y2="290" stroke="#041427" stroke-width="8" stroke-linecap="round" />
+
+  <!-- Typography: RADIO JOY -->
+  <text x="256" y="375" text-anchor="middle" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="52" fill="#ffffff" letter-spacing="3">
+    RADIO JOY
+  </text>
+
+  <!-- Frequency Badge 90.5 FM -->
+  <g transform="translate(146, 400)">
+    <rect width="220" height="48" rx="24" fill="url(#yellowGrad)" />
+    <text x="110" y="32" text-anchor="middle" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="26" fill="#041427" letter-spacing="2">
+      90.5 FM
+    </text>
+  </g>
+
+  <!-- Location Kigoma -->
+  <text x="256" y="480" text-anchor="middle" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="600" font-size="20" fill="#94a3b8" letter-spacing="4">
+    KIGOMA, TANZANIA
+  </text>
+</svg>
